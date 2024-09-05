@@ -26,8 +26,8 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 * issue tracker (e.g., GitHub, Gitlab)
 * external dependencies (including licenses)
 * release methodology and mechanics
-* names of initial committers, if different from those submitting proposal
 * brief description of current leadership team and decision-making process
+* list of the project members with access to commit to the mainline of the project
 * link to any documented governance practices
 * list of project's official communication channels (E.g., slack, irc, mailing lists)
 * link to project's website
