@@ -37,9 +37,9 @@ assignees: ''
 
 11. Please describe your release methodology and mechanics
 
-12. Please list the names of the project's initial committers
+12. Please list the project's leadership team
 
-13. Please list the project's leadership team
+13. Please list the project members with access to commit to the mainline of the project
 
 14. Please describe the project's decision-making process
 
