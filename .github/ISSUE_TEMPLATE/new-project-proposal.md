@@ -27,7 +27,7 @@ assignees: ''
 
 [Project Governance](https://www.projectgovernance.org)
 
-7. Sponsor from the High Performance Software Foundation's Technical Advisory Committee
+7. Two Sponsors from the High Performance Software Foundation's Technical Advisory Committee
 
 8. What is the project's solution for source control?
 
