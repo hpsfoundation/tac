@@ -1,6 +1,6 @@
 ---
 name: New Project Proposal
-about: Please fill out and submit.
+about: This form is for new software projects that like to join HPSF.
 title: "[Project Proposal]"
 labels: ''
 assignees: ''
