@@ -37,6 +37,27 @@ And, later, once we have prototypes:
   HPSF software ecosystem, ensuring that key packages are built and tested at these
   facilities.
 
+## Support / Maintenance
+
+Currently:
+* Kitware maintain the Kubernetes and AWS infrastructure that runs Spack's CI system.
+* Kitware has also written commands like `spack ci` that enable us to generate build
+  pipelines for Spack.
+* UO maintains the Frank cluster and the runners on it.
+* AWS provides credits and helps with infrastructure questions for Spack's CI cycles.
+
+We want to decide, as a working group, who will run and maintain the HPSF CI service. It
+is likely that this will become its own long-term project, so some volunteer effort is
+expected, but we also need funding for things like:
+  * SREs to maintain the CI service
+  * Admins/staff at UO and other sites to maintain cluster and runners
+  * HPC facility staff who want to provide runners and cycles to the service
+  * Engagements with projects to help them get set up with CI.
+
+We will need to work out how best to support this new scope, whether it falls under
+existing projects, etc. Linux Foundation has an internal Release Management team that we
+can potentially leverage in the long term, e.g. for project engagements.
+
 ## Customers
 
 The CI service will initially be for HPSF projects, but could expand after initial
