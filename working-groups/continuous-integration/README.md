@@ -109,6 +109,6 @@ functionality we want to offer.
 
 ## Meetings
 
-* The working group meets every <TBD> weeks.
-* Zoom coordinates are <TBD>.
-* To get involved or to get an invite, <TBD>
+* The working group meets every **TBD** weeks.
+* Zoom coordinates are **TBD**.
+* To get involved or to get an invite, **TBD**.
