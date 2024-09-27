@@ -37,6 +37,13 @@ And, later, once we have prototypes:
   HPSF software ecosystem, ensuring that key packages are built and tested at these
   facilities.
 
+## Customers
+
+The CI service will initially be for HPSF projects, but could expand after initial
+launch and willingness of resource providers.
+
+We are collecting [project needs](project-needs) as we go along, to inform the plan.
+
 ## Plan
 1. [ ] Get Spack CI working as a prototype for a couple of projects
 2. [ ] Ensure that those projects can only use UO resources via gitlab.spack.io
@@ -67,14 +74,20 @@ So far, two projects have tried running on gitlab.spack.io:
 
 1. Viskores has run on gitlab.spack.io on CPU nodes on the Frank cluster and is working on
    running on GPUs
+
 2. Kokkos is in the process of setting up to run on gitlab.spack.io
 
-Our plan is to work with these projects and show that they can run on GPUs / CPUs on the
-machine, and then document the process per the plan above. We may bring on additional
-projects as a proof of concept after.
+3. HPCToolkit is hoping to use this CI as a resource, and has written up
+   [some of their needs](project-needs/hpctoolkit.md).
+
+Our plan is to work with these and other projects and show that they can run on GPUs /
+CPUs on the machine, and then document the process per the plan above.
+
+We may bring on additional projects as a proof of concept as needed to test
+functionality we want to offer.
 
 ## Meetings
 
-The working group meets every <TBD> weeks.
-
-To get involved or to get an invite, <TBD>
+* The working group meets every <TBD> weeks.
+* Zoom coordinates are <TBD>.
+* To get involved or to get an invite, <TBD>
