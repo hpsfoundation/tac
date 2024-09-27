@@ -38,28 +38,28 @@ And, later, once we have prototypes:
   facilities.
 
 ## Plan
-- [ ] Get Spack CI working as a prototype for a couple of projects
-- [ ] Ensure that those projects can only use UO resources via gitlab.spack.io
+1. [ ] Get Spack CI working as a prototype for a couple of projects
+2. [ ] Ensure that those projects can only use UO resources via gitlab.spack.io
       (not AWS or Google runners)
-- [ ] Document tagging scheme for node types on gitlab.spack.io so that projects
+3. [ ] Document tagging scheme for node types on gitlab.spack.io so that projects
       can easily set up a new workflow and use GPU resources with a suitable
       `gitlab-ci.yml` file.
-- [ ] Roll CI bridge and other needed functionality in Hubcast
-- [ ] Enable Hubcast to be installed easily and to automatically connect to our CI
+4. [ ] Roll CI bridge and other needed functionality in Hubcast
+5. [ ] Enable Hubcast to be installed easily and to automatically connect to our CI
       service, so long as permission is granted by HPSF.
-- [ ] Eventually make it easy to log into gitlab.spack.io with:
+6. [ ] Eventually make it easy to log into gitlab.spack.io with:
       - [ ] GitHub credentials
       - [ ] GitLab credentials
-- [ ] Document process for setting up and using HPSF CI, e.g.:
+7. [ ] Document process for setting up and using HPSF CI, e.g.:
       * Install Hubcast app
       * Register for HPSF CI
       * Add a suitable `gitlab-ci.yml` in your repo
       * Run your first job
-- [ ] Change domain of gitlab.spack.io to ci.hpsf.io (or similar) and launch the
+8. [ ] Change domain of gitlab.spack.io to ci.hpsf.io (or similar) and launch the
       production service.
-- [ ] Work wtih CASS, PESO, facilities and other DOE efforts to promote this type of
+9. [ ] Work wtih CASS, PESO, facilities and other DOE efforts to promote this type of
       CI as a best practice for HPC projects
-- [ ] Consider developing some type of certification/metric/badge for HPSF CI so that
+10. [ ] Consider developing some type of certification/metric/badge for HPSF CI so that
       projects can show that they're using it.
 
 ## Prototypes and status
