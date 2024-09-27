@@ -3,6 +3,18 @@
 HPSF aims to bring together multiple efforts to create a CI service for HPC projects,
 starting with those in HPSF.
 
+## Leads
+
+* Alec Scott ([@alecbcs](https://github.com/alecbcs)])
+* Zack Galbreath ([@zackgalbreath](https://github.com/zackgalbreath)])
+
+## Meetings
+
+* The working group meets every **TBD** weeks.
+* Zoom coordinates are **TBD**.
+* To get involved or to get an invite, **TBD**.
+
+
 ## Efforts we want to bring together
 
 * [Spack](/spack/spack) has a CI service, co-developed by LLNL, Kitware, AWS, and U.
@@ -106,9 +118,3 @@ CPUs on the machine, and then document the process per the plan above.
 
 We may bring on additional projects as a proof of concept as needed to test
 functionality we want to offer.
-
-## Meetings
-
-* The working group meets every **TBD** weeks.
-* Zoom coordinates are **TBD**.
-* To get involved or to get an invite, **TBD**.
