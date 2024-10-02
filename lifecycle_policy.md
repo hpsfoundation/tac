@@ -123,7 +123,7 @@ The Core Stage is for projects that are on a sustaining cycle of development, ma
 
 **Expectations**
 
-Like Established projects, Core Sztage projects are expected to participate actively in TAC proceedings, and as such have a binding vote on TAC matters requiring a formal vote, such as the election of TAC representatives to the governing board. They receive ongoing financial and marketing support from the Foundation, and are expected to cross promote the foundation along with their activities.
+Like Established projects, Core Stage projects are expected to participate actively in TAC proceedings, and as such have a binding vote on TAC matters requiring a formal vote, such as the election of TAC representatives to the governing board. They receive ongoing financial and marketing support from the Foundation, and are expected to cross promote the foundation along with their activities.
 
 **Acceptance Criteria**
 
