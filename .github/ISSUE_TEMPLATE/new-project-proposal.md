@@ -37,18 +37,20 @@ assignees: ''
 
 11. Please describe your release methodology and mechanics
 
-12. Please list the project's leadership team
+12. Please describe Software Quality efforts (CI, security, auditing)
 
-13. Please list the project members with access to commit to the mainline of the project
+13. Please list the project's leadership team
 
-14. Please describe the project's decision-making process
+14. Please list the project members with access to commit to the mainline of the project
 
-15. What is the maturity level of your project?
+15. Please describe the project's decision-making process
 
-16. Please list the project's official communication channels
+16. What is the maturity level of your project?
 
-17. Please list the project's social media accounts
+17. Please list the project's official communication channels
 
-18. Please describe any existing financial sponsorships
+18. Please list the project's social media accounts
 
-19. Please describe the project's infrastructure needs or requests
+19. Please describe any existing financial sponsorships
+
+20. Please describe the project's infrastructure needs or requests
