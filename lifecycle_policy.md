@@ -74,6 +74,7 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 To be considered for the Sandbox Stage, the project must meet the following requirements:
 * Meet all requirements to be a [Linux Foundation project](https://www.linuxfoundation.org/projects/hosting)
 * Have 2 TAC sponsors to champion the project & provide mentorship as needed
+* Align with the mission of the HPSF as laid out above. This will be determined by a majority vote of the TAC
 * Submit a proposal for membership and present it at a meeting of the TAC
 * Have a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more licenses approved as “open” by the Open Source Initiative.  The staff of the High Performance Software Foundation can assist projects in preparing a technical charter following the High Performance Software Foundation’s standard template.
 * Have a code of conduct (part of default governance for LF – there is a template)
