@@ -48,6 +48,44 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 * Vote majorities will be calculated as a percentage of the votes received
 * The TAC will determine the appropriate initial stage for the project. The project can apply for a different stage via the Periodic Review Process.
 
+#### Poll TAC Voting Members
+The Linux Foundation conducts a poll of all TAC voting members.
+The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in the following poll template.
+
+* Question 1: That PROJECT NAME meets all requirements to be a Linux Foundation project.
+* Question 2: That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
+* Question 3: That PROJECT NAME has a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more licenses approved as "open" by the Open Source Initiative.
+* Question 4: That PROJECT NAME has a code of conduct.
+* Question 5: The PROJECT NAME has a publicly available governance document.
+* Question 6: That PROJECT NAME has documented that the project is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
+* Question 7: That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
+* Question 8: That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
+
+#### Vote
+TAC voting members may respond to each poll question with one of three options: Approve, Against, or Abstain.
+The poll ends when all TAC voting members respond to the poll, or the poll expires.
+
+#### Aggregate Poll Results
+After the poll ends, The Linux Foundation applies the following rules to determine the result of each poll question.
+
+If the total votes received is not greater than zero, then the result of all questions is Against.
+Otherwise, if the total Approve responses for a question is at least two thirds of the votes received, then the result of that question is Approve.
+Otherwise, the result of a question is Against.
+
+#### Determine Project Stage
+If the poll yields an Approve result for poll questions 1 through 8, then the Project is provisionally approved for HPSF membership at the Established Stage.
+Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is provisionally approved for HPSF membership at the Sandbox Stage.
+Otherwise, the Project is not approved for HPSF membership, and the acceptance process does not proceed to the next step.
+
+#### Join The Linux Foundation
+If the Project is a Linux Foundation project, then The Linux Foundation notifies the TAC that the Project is a Linux Foundation project.
+
+If the Project is not a Linux Foundation project, then the Project seeks to become a Linux Foundation project.
+After the Project becomes a Linux Foundation project, The Linux Foundation notifies the TAC that the project is a Linux Foundation project.
+
+#### Formally Accept the Project
+After the Linux Foundation notifies the TAC that the Project is a Linux Foundation project, the TAC formally accepts the Project as an HPSF project at the stage that it was provisionally approved for.
+
 ## III. Stages - Definitions & Expectations
 Every High Performance Software Foundation project has an associated maturity level.
 
