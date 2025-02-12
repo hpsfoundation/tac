@@ -61,7 +61,7 @@ The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in 
 * Question 4:
   That PROJECT NAME has a code of conduct.
 * Question 5:
-  The PROJECT NAME has a publicly available governance document.
+  That PROJECT NAME has a publicly available governance document.
 * Question 6:
   That PROJECT NAME has documented that the project is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
 * Question 7:
