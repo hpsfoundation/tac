@@ -48,6 +48,65 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 * Vote majorities will be calculated as a percentage of the votes received
 * The TAC will determine the appropriate initial stage for the project. The project can apply for a different stage via the Periodic Review Process.
 
+#### Poll TAC Voting Members
+The Linux Foundation conducts a poll of all TAC voting members.
+The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in the following poll template.
+
+* Question 1:
+  That PROJECT NAME is a Linux Foundation project, or is seeking to become a Linux Foundation project and has goals that are aligned with the requirements for Linux Foundation projects.
+* Question 2:
+  That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
+* Question 3:
+  That PROJECT NAME has a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more Open Source Initiative Approved Licenses.
+* Question 4:
+  That PROJECT NAME has a code of conduct.
+* Question 5:
+  That PROJECT NAME has a publicly available governance document.
+* Question 6:
+  That PROJECT NAME is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
+* Question 7:
+  That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
+* Question 8:
+  That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
+* Question 9:
+  That PROJECT NAME has a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer.
+* Question 10:
+  That PROJECT NAME has a documented and publicly accessible description of the project's governance, decision-making, and release processes.
+* Question 11:
+  That PROJECT NAME has a healthy number of committers from at least two organizations.
+* Question 12:
+  That PROJECT NAME has explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project.
+* Question 13:
+  That PROJECT NAME has an explicitly defined project governance and committer process.
+* Question 14:
+  That PROJECT NAME has widespread adoption in the HPC ecosystem or in some important component thereof.
+
+#### Vote
+TAC voting members may respond to each poll question with one of three options: Approve, Against, or Abstain.
+The poll ends when all TAC voting members respond to the poll, or the poll expires.
+
+#### Aggregate Poll Results
+After the poll ends, The Linux Foundation applies the following rules to determine the result of each poll question.
+
+If the total votes received is not greater than zero, then the result of all questions is Against.
+Otherwise, if the total Approve responses for a question is at least two thirds of the votes received, then the result of that question is Approve.
+Otherwise, the result of a question is Against.
+
+#### Determine Project Stage
+If the poll yields an Approve result for poll questions 1 through 14, then the Project is conditionally approved for HPSF membership at the Core Stage.
+Otherwise, if the poll yields an Approve result for poll questions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
+Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is conditionally approved for HPSF membership at the Sandbox Stage.
+Otherwise, the Project is not approved for HPSF membership, and the acceptance process does not proceed to the next step.
+
+#### Join The Linux Foundation
+If the Project is a Linux Foundation project, then The Linux Foundation notifies the TAC that the Project is a Linux Foundation project.
+
+If the Project is not a Linux Foundation project, then the Project seeks to become a Linux Foundation project.
+After the Project becomes a Linux Foundation project, The Linux Foundation notifies the TAC that the project is a Linux Foundation project.
+
+#### Formally Accept the Project
+After The Linux Foundation notifies the TAC that the Project is a Linux Foundation project, the TAC formally accepts the Project as an HPSF project at the stage that it was conditionally approved for.
+
 ## III. Stages - Definitions & Expectations
 Every High Performance Software Foundation project has an associated maturity level.
 
@@ -72,10 +131,10 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 **Acceptance Criteria**
 
 To be considered for the Sandbox Stage, the project must meet the following requirements:
-* Meet all requirements to be a [Linux Foundation project](https://www.linuxfoundation.org/projects/hosting)
+* The Project is a Linux Foundation project, or is seeking to become a Linux Foundation project and has goals that are aligned with [the requirements for Linux Foundation projects](https://www.linuxfoundation.org/projects/hosting).
 * Have 2 TAC sponsors to champion the project & provide mentorship as needed
 * Submit a proposal for membership and present it at a meeting of the TAC
-* Have a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more licenses approved as “open” by the Open Source Initiative.  The staff of the High Performance Software Foundation can assist projects in preparing a technical charter following the High Performance Software Foundation’s standard template.
+* Have a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more Open Source Initiative Approved Licenses.  The staff of the High Performance Software Foundation can assist projects in preparing a technical charter following the High Performance Software Foundation’s standard template.
 * Have a code of conduct (part of default governance for LF – there is a template)
 * Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles
 * Upon acceptance, projects must list their status prominently on their website/README
@@ -104,7 +163,7 @@ There is no explicit expected timeframe for Established projects to move to Core
 
 To be considered for Established Stage, the project must meet the Sandbox requirements as well as the following:
 
-* Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
+* The Project is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
 * Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
 * Demonstrate a substantial ongoing flow of commits and merged contributions.
 * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
