@@ -52,14 +52,22 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 The Linux Foundation conducts a poll of all TAC voting members.
 The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in the following poll template.
 
-* Question 1: That PROJECT NAME meets all requirements to be a Linux Foundation project.
-* Question 2: That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
-* Question 3: That PROJECT NAME has a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more licenses approved as "open" by the Open Source Initiative.
-* Question 4: That PROJECT NAME has a code of conduct.
-* Question 5: The PROJECT NAME has a publicly available governance document.
-* Question 6: That PROJECT NAME has documented that the project is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
-* Question 7: That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
-* Question 8: That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
+* Question 1:
+  That PROJECT NAME meets all requirements to be a Linux Foundation project.
+* Question 2:
+  That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
+* Question 3:
+  That PROJECT NAME has a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more licenses approved as "open" by the Open Source Initiative.
+* Question 4:
+  That PROJECT NAME has a code of conduct.
+* Question 5:
+  The PROJECT NAME has a publicly available governance document.
+* Question 6:
+  That PROJECT NAME has documented that the project is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
+* Question 7:
+  That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
+* Question 8:
+  That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
 
 #### Vote
 TAC voting members may respond to each poll question with one of three options: Approve, Against, or Abstain.
