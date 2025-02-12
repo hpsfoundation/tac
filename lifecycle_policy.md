@@ -73,8 +73,8 @@ Otherwise, if the total Approve responses for a question is at least two thirds 
 Otherwise, the result of a question is Against.
 
 #### Determine Project Stage
-If the poll yields an Approve result for poll questions 1 through 8, then the Project is provisionally approved for HPSF membership at the Established Stage.
-Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is provisionally approved for HPSF membership at the Sandbox Stage.
+If the poll yields an Approve result for poll questions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
+Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is conditionally approved for HPSF membership at the Sandbox Stage.
 Otherwise, the Project is not approved for HPSF membership, and the acceptance process does not proceed to the next step.
 
 #### Join The Linux Foundation
@@ -84,7 +84,7 @@ If the Project is not a Linux Foundation project, then the Project seeks to beco
 After the Project becomes a Linux Foundation project, The Linux Foundation notifies the TAC that the project is a Linux Foundation project.
 
 #### Formally Accept the Project
-After the Linux Foundation notifies the TAC that the Project is a Linux Foundation project, the TAC formally accepts the Project as an HPSF project at the stage that it was provisionally approved for.
+After The Linux Foundation notifies the TAC that the Project is a Linux Foundation project, the TAC formally accepts the Project as an HPSF project at the stage that it was conditionally approved for.
 
 ## III. Stages - Definitions & Expectations
 Every High Performance Software Foundation project has an associated maturity level.
