@@ -53,7 +53,7 @@ The Linux Foundation conducts a poll of all TAC voting members.
 The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in the following poll template.
 
 * Question 1:
-  That PROJECT NAME meets all requirements to be a Linux Foundation project.
+  That PROJECT NAME is a Linux Foundation project, or is seeking to become a Linux Foundation project and has goals that are aligned with the requirements for Linux Foundation projects.
 * Question 2:
   That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
 * Question 3:
@@ -131,7 +131,7 @@ End users should evaluate Sandbox projects with care, as this stage does not set
 **Acceptance Criteria**
 
 To be considered for the Sandbox Stage, the project must meet the following requirements:
-* Meet all requirements to be a [Linux Foundation project](https://www.linuxfoundation.org/projects/hosting)
+* The Project is a Linux Foundation project, or is seeking to become a Linux Foundation project and has goals that are aligned with [the requirements for Linux Foundation projects](https://www.linuxfoundation.org/projects/hosting).
 * Have 2 TAC sponsors to champion the project & provide mentorship as needed
 * Submit a proposal for membership and present it at a meeting of the TAC
 * Have a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more Open Source Initiative Approved Licenses.  The staff of the High Performance Software Foundation can assist projects in preparing a technical charter following the High Performance Software Foundation’s standard template.
