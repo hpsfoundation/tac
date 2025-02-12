@@ -68,6 +68,18 @@ The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in 
   That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
 * Question 8:
   That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
+* Question 9:
+  That PROJECT NAME has a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer.
+* Question 10:
+  That PROJECT NAME has a documented and publicly accessible description of the project's governance, decision-making, and release processes.
+* Question 11:
+  That PROJECT NAME has a healthy number of committers from at least two organizations.
+* Question 12:
+  That PROJECT NAME has explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project.
+* Question 13:
+  That PROJECT NAME has an explicitly defined project governance and committer process.
+* Question 14:
+  That PROJECT NAME has widespread adoption in the HPC ecosystem or in some important component thereof.
 
 #### Vote
 TAC voting members may respond to each poll question with one of three options: Approve, Against, or Abstain.
@@ -81,7 +93,8 @@ Otherwise, if the total Approve responses for a question is at least two thirds 
 Otherwise, the result of a question is Against.
 
 #### Determine Project Stage
-If the poll yields an Approve result for poll questions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
+If the poll yields an Approve result for poll questions 1 through 14, then the Project is conditionally approved for HPSF membership at the Core Stage.
+Otherwise, if the poll yields an Approve result for poll questions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
 Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is conditionally approved for HPSF membership at the Sandbox Stage.
 Otherwise, the Project is not approved for HPSF membership, and the acceptance process does not proceed to the next step.
 
