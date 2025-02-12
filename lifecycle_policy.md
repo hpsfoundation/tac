@@ -63,7 +63,7 @@ The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in 
 * Question 5:
   That PROJECT NAME has a publicly available governance document.
 * Question 6:
-  That PROJECT NAME has documented that the project is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
+  That PROJECT NAME is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
 * Question 7:
   That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
 * Question 8:
@@ -163,7 +163,7 @@ There is no explicit expected timeframe for Established projects to move to Core
 
 To be considered for Established Stage, the project must meet the Sandbox requirements as well as the following:
 
-* Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
+* The Project is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
 * Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
 * Demonstrate a substantial ongoing flow of commits and merged contributions.
 * Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
