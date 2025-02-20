@@ -52,50 +52,50 @@ Projects must be formally proposed via GitHub. Project proposals submitted to th
 The Linux Foundation conducts a poll of all TAC voting members.
 The Linux Foundation creates the poll by filling in the "PROJECT NAME" field in the following poll template.
 
-* Question 1:
+* Resolution 1:
   That PROJECT NAME is a Linux Foundation project, or is seeking to become a Linux Foundation project and has goals that are aligned with the requirements for Linux Foundation projects.
-* Question 2:
+* Resolution 2:
   That PROJECT NAME has 2 TAC sponsors to champion the project and provide mentorship as needed.
-* Question 3:
+* Resolution 3:
   That PROJECT NAME has a charter document with an intellectual property policy that leverages open licenses, including, in the case of contributions of code, the use of one or more Open Source Initiative Approved Licenses.
-* Question 4:
+* Resolution 4:
   That PROJECT NAME has a code of conduct.
-* Question 5:
+* Resolution 5:
   That PROJECT NAME has a publicly available governance document.
-* Question 6:
+* Resolution 6:
   That PROJECT NAME is being used successfully in production by at least three independent end users which, in the TAC's judgment, are of adequate quality and scope.
-* Question 7:
+* Resolution 7:
   That PROJECT NAME has demonstrated development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
-* Question 8:
+* Resolution 8:
   That PROJECT NAME has demonstrated a substantial ongoing flow of commits and merged contributions.
-* Question 9:
+* Resolution 9:
   That PROJECT NAME has a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer.
-* Question 10:
+* Resolution 10:
   That PROJECT NAME has a documented and publicly accessible description of the project's governance, decision-making, and release processes.
-* Question 11:
+* Resolution 11:
   That PROJECT NAME has a healthy number of committers from at least two organizations.
-* Question 12:
+* Resolution 12:
   That PROJECT NAME has explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project.
-* Question 13:
+* Resolution 13:
   That PROJECT NAME has an explicitly defined project governance and committer process.
-* Question 14:
+* Resolution 14:
   That PROJECT NAME has widespread adoption in the HPC ecosystem or in some important component thereof.
 
 #### Vote
-TAC voting members may respond to each poll question with one of three options: Approve, Against, or Abstain.
+TAC voting members may respond to each resolution with one of three options: Approve, Against, or Abstain.
 The poll ends when all TAC voting members respond to the poll, or the poll expires.
 
 #### Aggregate Poll Results
-After the poll ends, The Linux Foundation applies the following rules to determine the result of each poll question.
+After the poll ends, The Linux Foundation applies the following rules to determine the result of each resolution.
 
-If the total votes received is not greater than zero, then the result of all questions is Against.
-Otherwise, if the total Approve responses for a question is at least two thirds of the votes received, then the result of that question is Approve.
-Otherwise, the result of a question is Against.
+If the total votes received is not greater than zero, then the result of all resolutions is Against.
+Otherwise, if the total Approve responses for a resolution is at least two thirds of the votes received, then the result of that resolution is Approve.
+Otherwise, the result of a resolution is Against.
 
 #### Determine Project Stage
-If the poll yields an Approve result for poll questions 1 through 14, then the Project is conditionally approved for HPSF membership at the Core Stage.
-Otherwise, if the poll yields an Approve result for poll questions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
-Otherwise, if the poll yields an Approve result for poll questions 1 through 5, then the Project is conditionally approved for HPSF membership at the Sandbox Stage.
+If the poll yields an Approve result for resolutions 1 through 14, then the Project is conditionally approved for HPSF membership at the Core Stage.
+Otherwise, if the poll yields an Approve result for resolutions 1 through 8, then the Project is conditionally approved for HPSF membership at the Established Stage.
+Otherwise, if the poll yields an Approve result for resolutions 1 through 5, then the Project is conditionally approved for HPSF membership at the Sandbox Stage.
 Otherwise, the Project is not approved for HPSF membership, and the acceptance process does not proceed to the next step.
 
 #### Join The Linux Foundation
