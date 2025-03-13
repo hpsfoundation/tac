@@ -129,7 +129,6 @@ End users should evaluate Emerging projects with care, as this stage does not se
 **Acceptance Criteria**
 
 To be considered for the Emerging Stage, the project must meet the following requirements:
-* Meet all requirements to be a [Linux Foundation project](https://www.linuxfoundation.org/projects/hosting)
 * Have 2 TAC sponsors to champion the project & provide mentorship as needed
 * Align with the mission of the HPSF as laid out above. This will be determined by a majority vote of the TAC
 * Submit a proposal for membership and present it at a meeting of the TAC
