@@ -38,8 +38,6 @@ If the project also ships data artifacts, what Open Access licenses are used?
 
 ### 10. What is the project's solution for issue tracking?
 
-### 11. Please list all external dependencies and their license
-
 ### 12. Please describe your release methodology and mechanics
 
 ### 13. Please describe Software Quality efforts (CI, security, auditing)
