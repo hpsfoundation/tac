@@ -38,22 +38,22 @@ If the project also ships data artifacts, what Open Access licenses are used?
 
 ### 10. What is the project's solution for issue tracking?
 
-### 12. Please describe your release methodology and mechanics
+### 11. Please describe your release methodology and mechanics
 
-### 13. Please describe Software Quality efforts (CI, security, auditing)
+### 12. Please describe Software Quality efforts (CI, security, auditing)
 
-### 14. Please list the project's leadership team
+### 13. Please list the project's leadership team
 
-### 15. Please list the project members with access to commit to the mainline of the project
+### 14. Please list the project members with access to commit to the mainline of the project
 
-### 16. Please describe the project's decision-making process
+### 15. Please describe the project's decision-making process
 
-### 17. What is the maturity level of your project?
+### 16. What is the maturity level of your project?
 
-### 18. Please list the project's official communication channels
+### 17. Please list the project's official communication channels
 
-### 19. Please list the project's social media accounts
+### 18. Please list the project's social media accounts
 
-### 20. Please describe any existing financial sponsorships
+### 19. Please describe any existing financial sponsorships
 
-### 21. Please describe the project's infrastructure needs or requests
+### 20. Please describe the project's infrastructure needs or requests
