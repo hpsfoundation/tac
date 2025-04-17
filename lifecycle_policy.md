@@ -53,10 +53,10 @@ Every High Performance Software Foundation project has an associated maturity le
 
 All projects may attend TAC meetings and contribute work regardless of their stage.
 
-### Sandbox Projects
+### Emerging Projects
 **Definition**
 
-Sandbox projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the High Performance Software Foundation ecosystem as a whole. The Sandbox stage provides a beneficial, neutral home for these projects. The Sandbox stage is intended as a low barrier of entry to the HPSF, which fosters collaborative development and provides a path to deeper alignment with other HPSF projects via the graduation process.
+Emerging projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the High Performance Software Foundation ecosystem as a whole. The Emerging stage provides a beneficial, neutral home for these projects. The Emerging stage is intended as a low barrier of entry to the HPSF, which fosters collaborative development and provides a path to deeper alignment with other HPSF projects via the graduation process.
 
 **Possible Characteristics**
 
@@ -67,11 +67,11 @@ Sandbox projects are projects which the TAC believes are, or have the potential 
 
 **Expectations**
 
-End users should evaluate Sandbox projects with care, as this stage does not set requirements for community size, governance, or production readiness. Sandbox projects will receive minimal support from the Foundation. Projects will participate in the Periodic Review Process; they may also request a status review by submitting a report to the TAC.
+End users should evaluate Emerging projects with care, as this stage does not set requirements for community size, governance, or production readiness. Emerging projects will receive minimal support from the Foundation. Projects will participate in the Periodic Review Process; they may also request a status review by submitting a report to the TAC.
 
 **Acceptance Criteria**
 
-To be considered for the Sandbox Stage, the project must meet the following requirements:
+To be considered for the Emerging Stage, the project must meet the following requirements:
 * Meet all requirements to be a [Linux Foundation project](https://www.linuxfoundation.org/projects/hosting)
 * Have 2 TAC sponsors to champion the project & provide mentorship as needed
 * Align with the mission of the HPSF as laid out above. This will be determined by a majority vote of the TAC
@@ -103,7 +103,7 @@ There is no explicit expected timeframe for Established projects to move to Core
 
 **Acceptance Criteria**
 
-To be considered for Established Stage, the project must meet the Sandbox requirements as well as the following:
+To be considered for Established Stage, the project must meet the Emerging requirements as well as the following:
 
 * Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
 * Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
@@ -129,7 +129,7 @@ Like Established projects, Core Stage projects are expected to participate activ
 
 **Acceptance Criteria**
 
-To graduate from Sandbox or Established status, or for a new project to join as a Core project, a project must meet the Established stage criteria plus:
+To graduate from Emerging or Established status, or for a new project to join as a Core project, a project must meet the Established stage criteria plus:
 
 * Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body.
 * Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
@@ -137,7 +137,7 @@ To graduate from Sandbox or Established status, or for a new project to join as 
 * Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project
 * Explicitly defined project governance and committer process.
 * Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof.
-* Receive a 2/3 majority vote from the TAC to move to Core stage. Projects can move directly from Sandbox to Core, if they can demonstrate sufficient maturity and have met all requirements.
+* Receive a 2/3 majority vote from the TAC to move to Core stage. Projects can move directly from Emerging to Core, if they can demonstrate sufficient maturity and have met all requirements.
 
 
 ### Emeritus Stage

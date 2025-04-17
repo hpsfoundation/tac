@@ -8,9 +8,9 @@ The HPSF TAC meets bi-weekly and all meetings are open to the public.  To join a
 
 ## Summary of Project Levels
 
-### Sandbox
+### Emerging
 
-Sandbox projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the High Performance Software Foundation ecosystem as a whole. The Sandbox stage provides a beneficial, neutral home for these projects. The Sandbox stage is intended as a low barrier of entry to the HPSF, which fosters collaborative development and provides a path to deeper alignment with other HPSF projects via the graduation process.
+Emerging projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the High Performance Software Foundation ecosystem as a whole. The Emerging stage provides a beneficial, neutral home for these projects. The Emerging stage is intended as a low barrier of entry to the HPSF, which fosters collaborative development and provides a path to deeper alignment with other HPSF projects via the graduation process.
 
 ### Established
 
