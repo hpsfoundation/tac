@@ -1,10 +1,10 @@
 # Below are some boring and fun name choices for the WG
-# (a) HPSF Benchmarking Working Group
-# (b) HPSF Benchmarking and Testing (BT) Working Group
-# (c) HPSF Performance Testing (PT) Working Group
-# (d) HPSF Performance Testing Infrastructure (PTI) Working Group
-# (e) HPSF Performance And Functionality Testing Infrastructure (PAFTI) Working Group
-# (f) HPSF Performance and Application Regression Testing Infrastructure (PARTI) Working Group
+* HPSF Benchmarking Working Group
+* HPSF Benchmarking and Testing (BT) Working Group
+* HPSF Performance Testing (PT) Working Group
+* HPSF Performance Testing Infrastructure (PTI) Working Group
+* HPSF Performance And Functionality Testing Infrastructure (PAFTI) Working Group
+* HPSF Performance and Application Regression Testing Infrastructure (PARTI) Working Group
 
 HPSF aims to bring together projects and organizations to create an automated way to continuously 
 test evolving HPC software stacks, ensuring that the components work and perform well.
