@@ -1,9 +1,10 @@
 # Below are some boring and fun name choices for the WG
-# (a) HPSF Performance Testing (PT) Working Group
-# (b) HPSF Performance Testing Infrastructure (PTI) Working Group
-# (c) HPSF Performance And Functionality Testing Infrastructure (PAFTI) Working Group
-# (d) HPSF Performance and Application Regression Testing Infrastructure (PARTI) Working Group
-# (e) HPSF Software Stack Testing (SST) Working Group
+# (a) HPSF Benchmarking Working Group
+# (b) HPSF Benchmarking and Testing (BT) Working Group
+# (c) HPSF Performance Testing (PT) Working Group
+# (d) HPSF Performance Testing Infrastructure (PTI) Working Group
+# (e) HPSF Performance And Functionality Testing Infrastructure (PAFTI) Working Group
+# (f) HPSF Performance and Application Regression Testing Infrastructure (PARTI) Working Group
 
 HPSF aims to bring together projects and organizations to create an automated way to continuously 
 test evolving HPC software stacks, ensuring that the components work and perform well.
@@ -45,6 +46,14 @@ Parts of the software stack we would like to test:
 * Set up continuous testing
   * Leverage HPSF CI WG for CI technology
   * Establish testing on different platforms, at different HPC facilities (e.g., ALCF, OLCF, NERSC)
+ 
+* Work with projects on the TAC to add relevant benchmarks
+  * Kokkos, AMReX, WarpX, ...
+
+* Work with members to ask them what they need from a framework
+  * NVIDIA, Intel, AMD, HPE, AWS,
+ 
+* Use HPSF Con to assess potential scope 
 
 
 ## Support / Maintenance
