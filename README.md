@@ -10,15 +10,21 @@ The HPSF TAC meets bi-weekly and all meetings are open to the public.  To join a
 
 ### Emerging
 
+![Emerging Badge](badges/HPSF_Project_Badge_Emerging.png)
+
 Emerging projects are projects which the TAC believes are, or have the potential to be, important to the ecosystem of Technical Projects or the High Performance Software Foundation ecosystem as a whole. The Emerging stage provides a beneficial, neutral home for these projects. The Emerging stage is intended as a low barrier of entry to the HPSF, which fosters collaborative development and provides a path to deeper alignment with other HPSF projects via the graduation process.
 
 ### Established
+
+![Established Badge](badges/HPSF_Project_Badge_Established.png)
 
 The Established Stage is for projects that are major components of the High Performance Computing software ecosystem. Established Stage projects will receive mentorship from the TAC and are expected to actively develop their community of contributors, governance, project documentation, and other variables that factor into broad success and adoption.
 
 In order to support their active development, projects in the Established stage have a higher level of access to foundation resources. Projects will participate in the Periodic Review Process.
 
 ### Core
+
+![Core Badge](badges/HPSF_Project_Badge_Core.png)
 
 The Core Stage is for projects that are on a sustaining cycle of development, maintenance, and long-term support. Core Stage projects are used commonly in production environments and have large, well-established project communities. Projects in the Core stage have a higher level of access to foundation resources. Projects will participate in the Periodic Review Process.
 
