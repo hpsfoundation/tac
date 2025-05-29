@@ -15,38 +15,74 @@ Capitalized terms not otherwise defined in this Project Lifecycle Policy have th
 This governance policy sets forth the proposal process for projects to be accepted into the High Performance Software Foundation. The process is the same for both existing projects which seek to move into the High Performance Software Foundation and new projects to be formed within the High Performance Software Foundation.
 
 ### Project Proposal Requirements
-Projects must be formally proposed via GitHub. Project proposals submitted to the High Performance Software Foundation should provide the following information to the best of their ability:
+Projects must be formally proposed via GitHub. Project proposals submitted to the High Performance Software Foundation should provide the information listed in our
+[New Project Proposal Template](https://github.com/hpsfoundation/tac/blob/main/.github/ISSUE_TEMPLATE/new-project-proposal.md) to the best of their ability.
 
-* name of project
-* project description (what it does, why it is valuable, origin and history)
-* statement on alignment with the High Performance Software Foundation mission as expressed in the [HPSF Roles and Values](https://hpsf.io/#goals)
-* link to *current* Code of Conduct (if one is adopted already)
-* project license
-* source control (e.g., GitHub, Gitlab)
-* issue tracker (e.g., GitHub, Gitlab)
-* external dependencies (including licenses)
-* release methodology and mechanics
-* brief description of current leadership team and decision-making process
-* list of the project members with access to commit to the mainline of the project
-* link to a documented governance practice
-* list of project's official communication channels (E.g., slack, irc, mailing lists)
-* link to project's website
-* links to social media accounts
-* brief description of current user community
-* brief description of current contributor community
-* existing financial sponsorship and funding institutions
-* existing legal entity, if any
-* sponsor from the TAC, if identified (a sponsor helps mentor projects)
-* preferred project lifecycle stage to enter HPSF (see stages below)
-* infrastructure needs or requests (there will be opportunities to change this after joining HPSF)
+The main most important requirement from the list is to find two sponsors for your
+proposal on the TAC, as the sponsors will be arguing for your acceptance to HPSF. You
+should be sure that the sponsors are familiar with your project and your reasons for
+wanting to join HPSF.
+
+[Click this link](https://github.com/hpsfoundation/tac/issues/new?template=new-project-proposal.md) to start a new project proposal issue on GitHub.
+
+To see past project proposals, you can look at the closed issues in this repository. See here:
+
+* [Emerging Project Proposals](https://github.com/hpsfoundation/tac/issues?q=is%3Aissue%20state%3Aclosed%20label%3Alevel%3Aemerging)
+* [Established Project Proposals](https://github.com/hpsfoundation/tac/issues?q=is%3Aissue%20state%3Aclosed%20label%3Alevel%3Aestablished)
+* [Core Project Proposals](https://github.com/hpsfoundation/tac/issues?q=is%3Aissue%20state%3Aclosed%20label%3Alevel%3Acore)
 
 ### Project Acceptance Process
-* Projects are required to present their proposal at a TAC meeting
-* The TAC may ask for changes to bring the project into better alignment with the High Performance Software Foundation (adding a governance document to a repository or adopting a Code of Conduct, for example).
-* The project will need to make these changes in order to progress further.
-* Projects are accepted by a 2/3 majority of the TAC.
-* Vote majorities will be calculated as a percentage of the votes received
-* The TAC will determine the appropriate initial stage for the project. The project can apply for a different stage via the Periodic Review Process.
+Once a project has submitted a proposal as outlined above, the process for accepting them
+to HPSF is as follows:
+
+1. TAC sponsors shall read through the project proposal and ensure that all criteria
+   for the project's requested level are addressed in the proposal. If insufficient
+   evidence is presented for any of the criteria, the sponsors should work with the
+   project to bolster the case, or to choose a different, more appropriate initial
+   level.
+
+2. Once the proposal is in a suitable state, the sponsors shall propose it to the full
+   TAC for onboarding, and the TAC shall vote on whether to hear the project's presentation.
+
+3. If the TAC votes to take up the proposal, the TAC shall decide on a future meeting to
+   hear the presentation.
+
+4. TAC voting members shall read the project's proposal and ensure that they are familiar
+   with the state of the project to be onboarded *before* the onboarding presentation.
+
+5. Project members shall present their proposal at the scheduled TAC meeting. This should take
+   no more than 30 minutes, and it will typically involve an introduction to the project and
+   a verbal explanation of alignment with HPSF and key elements of the proposal.
+   See links in the prior section to past project propsoals for links to past talks.
+
+6. Once the project members have presented, voting members of the TAC shall convene a
+   private session, and the project's sponsors shall discuss the project, its presentation,
+   its proposal, and any questions the voting members have as to the evidence for
+   onboarding criteria.
+
+   In the closed sessio, sponsors are expected to advocate for the projects to be
+   onboarded and to clarify any questions the TAC may have.
+
+7. After the private session, the TAC shall vote asynchronously before the next TAC
+   meeting on whehter or not to accept the project.
+
+   **Projects must be accepted by a 2/3 majority of the TAC.*
+
+   Generally, the TAC will vote on the proposed level and all lower levels
+   simultaneously.
+
+8. The TAC may decide to:
+   1. Accept the project as proposed;
+   2. Accept the project provisionally, pending chages;
+   3. Accept the project at a lower level than proposed (given sufficient votes); or
+   4. Reject the project.
+
+Vote majorities will be calculated as a percentage of the votes received. If a project
+is accepted pending changes, sponsors should make sure that the project accomplishes the
+requested changes (e.g., adding a governance document to a repository or adopting a Code
+of Conduct) and notify the TAC for final approval.
+
+Once accepted, projects can apply for a different stage in HPSF via the Periodic Review Process.
 
 ## III. Stages - Definitions & Expectations
 Every High Performance Software Foundation project has an associated maturity level.
