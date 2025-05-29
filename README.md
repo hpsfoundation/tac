@@ -36,11 +36,11 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 * Andrew Myers (AMReX)
 * Axel Huebl (WarpX)
-* Curtis Ober (Trillinos)
+* Curtis Ober (Trilinos)
 * Damien Lebrun-Grandie (Kokkos)
 * Gregory Becker (Spack)
 * Gregory Kurtzer (CIQ)
-* Heidi Poxon (Amazon Web Services)
+* Matt Koop (Amazon Web Services)
 * James Willenbring (Sandia National Laboratory)
 * John Mellor-Crummey (HPCToolkit)
 * Justin LaPolla (Hewlett Packard Enterprise Development LP)
