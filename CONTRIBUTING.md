@@ -66,6 +66,6 @@ maintainers. These maintainers are responsible for:
 To ensure all TAC members are aware of changes:
 
 * **Bi-Weekly Review:** All changes (merged PRs) that have occurred since the
-  last bi-weekly TAC meeting will be formally brought to the attention of the
+  last TAC meeting (occurring once every other week) will be formally brought to the attention of the
   TAC at the subsequent meeting. This ensures the TAC is regularly updated
   on all modifications to the repository.
