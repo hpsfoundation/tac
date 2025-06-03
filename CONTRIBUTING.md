@@ -1,7 +1,7 @@
-# High Performance Software Foundation (HPSF) Technical Advisory Software Council (TAC) GitHub Repository Change Process
+# High Performance Software Foundation (HPSF) Technical Advisory Council (TAC) GitHub Repository Change Process
 
 This document outlines the process for proposing, reviewing, and merging
-changes to the HPSF Technical Advisory Software Council (TAC) repository on
+changes to the HPSF Technical Advisory Council (TAC) repository on
 GitHub. This repository contains critical documents such as the Lifecycle
 Policy for OSS projects and charters for TAC-appointed Working Groups (WGs).
 
@@ -14,7 +14,7 @@ GitHub.
 ## 2. Review and Approval Process
 
 We welcome feedback and suggestions from all members of the community on
-proposed changes. However, formal review and approval for merging are
+proposed changes. Formal review and approval for merging are
 restricted to the following:
 
 * **TAC Voting Members:** All current voting members of the TAC are designated
@@ -37,9 +37,9 @@ Upon opening a PR:
 ## 3. Merging Criteria
 
 To ensure velocity in the process while maintaining proper oversight, the
-following merging criteria will generally apply:
+following merging criteria apply:
 
-* **Minimum Approvals:** A PR generally requires at least two (2) approvals
+* **Minimum Approvals:** A PR requires at least two (2) approvals
   from TAC voting members to be considered for merging.
 
 * **Maintainer Discretion:** If two approvals are met and no TAC member has
@@ -61,12 +61,11 @@ maintainers. These maintainers are responsible for:
 * Exercising discretion regarding additional review time.
 * Merging approved PRs into the main branch.
 
-
 ## 5. Transparency and Communication
 
 To ensure all TAC members are aware of changes:
 
 * **Bi-Weekly Review:** All changes (merged PRs) that have occurred since the
   last bi-weekly TAC meeting will be formally brought to the attention of the
-  council at the subsequent meeting. This ensures the TAC is regularly updated
+  TAC at the subsequent meeting. This ensures the TAC is regularly updated
   on all modifications to the repository.
