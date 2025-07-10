@@ -45,22 +45,22 @@ to HPSF is as follows:
    the full TAC for onboarding, and the TAC shall decide on a future meeting to
    hear the presentation.
 
-4. TAC voting members shall read the project's proposal and ensure that they are familiar
+3. TAC voting members shall read the project's proposal and ensure that they are familiar
    with the state of the project to be onboarded *before* the onboarding presentation.
 
-5. Project members shall present their proposal at the scheduled TAC meeting. This should take
+4. Project members shall present their proposal at the scheduled TAC meeting. This should take
    no more than 30 minutes, and it will typically involve an introduction to the project and
    a verbal explanation of alignment with HPSF and key elements of the proposal.
    See links in the prior section to past project proposals for links to past talks.
 
-6. Once the project members have presented, voting members of the TAC shall convene a
+5. Once the project members have presented, voting members of the TAC shall convene a
    private session, and the project's sponsors shall discuss the project, its presentation,
    its proposal, and any questions the voting members have as to the evidence for
    onboarding criteria.
 
    In the closed session, sponsors are expected to advocate for the project and to clarify any questions the TAC may have.
 
-7. After the private session, the TAC shall vote asynchronously before the next TAC
+6. After the private session, the TAC shall vote asynchronously before the next TAC
    meeting on whether or not to accept the project.
 
    **Projects must be accepted by a 2/3 majority of the TAC.**
@@ -68,7 +68,7 @@ to HPSF is as follows:
    Generally, the TAC will vote on the proposed level and all lower levels
    simultaneously.
 
-8. The TAC may decide to:
+7. The TAC may decide to:
    1. Accept the project as proposed;
    2. Accept the project provisionally, pending changes;
    3. Accept the project at a lower level than proposed (given sufficient votes); or
