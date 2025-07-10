@@ -41,10 +41,8 @@ to HPSF is as follows:
    project to bolster the case, or to choose a different, more appropriate initial
    level.
 
-2. Once the proposal is in a suitable state, the sponsors shall propose it to the full
-   TAC for onboarding, and the TAC shall vote on whether to hear the project's presentation.
-
-3. If the TAC votes to take up the proposal, the TAC shall decide on a future meeting to
+2. Once the proposal is in a suitable state, the sponsors shall propose it to
+   the full TAC for onboarding, and the TAC shall decide on a future meeting to
    hear the presentation.
 
 4. TAC voting members shall read the project's proposal and ensure that they are familiar
