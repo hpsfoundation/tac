@@ -18,7 +18,7 @@ This governance policy sets forth the proposal process for projects to be accept
 Projects must be formally proposed via GitHub. Project proposals submitted to the High Performance Software Foundation should provide the information listed in our
 [New Project Proposal Template](https://github.com/hpsfoundation/tac/blob/main/.github/ISSUE_TEMPLATE/new-project-proposal.md) to the best of their ability.
 
-The main most important requirement from the list is to find two sponsors for your
+An important requirement from the list is to find two sponsors for your
 proposal on the TAC, as the sponsors will be arguing for your acceptance to HPSF. You
 should be sure that the sponsors are familiar with your project and your reasons for
 wanting to join HPSF.
@@ -53,27 +53,26 @@ to HPSF is as follows:
 5. Project members shall present their proposal at the scheduled TAC meeting. This should take
    no more than 30 minutes, and it will typically involve an introduction to the project and
    a verbal explanation of alignment with HPSF and key elements of the proposal.
-   See links in the prior section to past project propsoals for links to past talks.
+   See links in the prior section to past project proposals for links to past talks.
 
 6. Once the project members have presented, voting members of the TAC shall convene a
    private session, and the project's sponsors shall discuss the project, its presentation,
    its proposal, and any questions the voting members have as to the evidence for
    onboarding criteria.
 
-   In the closed sessio, sponsors are expected to advocate for the projects to be
-   onboarded and to clarify any questions the TAC may have.
+   In the closed session, sponsors are expected to advocate for the project and to clarify any questions the TAC may have.
 
 7. After the private session, the TAC shall vote asynchronously before the next TAC
-   meeting on whehter or not to accept the project.
+   meeting on whether or not to accept the project.
 
-   **Projects must be accepted by a 2/3 majority of the TAC.*
+   **Projects must be accepted by a 2/3 majority of the TAC.**
 
    Generally, the TAC will vote on the proposed level and all lower levels
    simultaneously.
 
 8. The TAC may decide to:
    1. Accept the project as proposed;
-   2. Accept the project provisionally, pending chages;
+   2. Accept the project provisionally, pending changes;
    3. Accept the project at a lower level than proposed (given sufficient votes); or
    4. Reject the project.
 
