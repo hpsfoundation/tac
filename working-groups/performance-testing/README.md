@@ -31,7 +31,8 @@ Parts of the software stack we would like to test:
 * There is not a group that is consolidating and maintaining open source benchmarks
 * Each datacenter is for themselves
 * Testing/benchmarking of the HPC software stack is intermittent at best
-* We want to figure out, as a working group, how we can pull together resources to support and maintain continuous testing
+* We want to figure out, as a working group, how we can pull together resources to support and maintain continuous testing,
+* with the purpose of testing the performance of the software stack as it evolves (compilers, libraries).
 
 
 ## Initial objectives
@@ -48,6 +49,7 @@ Parts of the software stack we would like to test:
   * Performance benchmarks
   * Proxy applications
   * Large applications
+  * Determine a reasonable granularity for code instrumentation/performance measurements (one number is not enough)
 
 * Software stack representation: sharing methodologies, creating best practices
   * Introspection
@@ -56,7 +58,7 @@ Parts of the software stack we would like to test:
 
 * Set up continuous testing
   * Leverage HPSF CI WG for CI technology
-  * Establish testing on different platforms, at different HPC facilities (e.g., ALCF, OLCF, NERSC)
+  * Establish testing on different platforms, at different HPC facilities (e.g., ALCF, OLCF, NERSC), and academic centers (TACC, NCSA)
  
 * Work with projects on the TAC to add relevant benchmarks
   * Kokkos, AMReX, WarpX, ...
@@ -64,7 +66,7 @@ Parts of the software stack we would like to test:
 * Work with members to ask them what they need from a framework
   * NVIDIA, Intel, AMD, HPE, AWS,
  
-* Use HPSF Con to assess potential scope 
+* Use HPSF Con to assess potential scope and showcase progress/results annually
 
 
 ## Customers
