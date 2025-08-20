@@ -16,13 +16,12 @@ Parts of the software stack we would like to test:
 ## Leads
 
 * Olga Pearce ([@pearce8](https://github.com/pearce8)])
-* ???
 
 
 ## Meetings
 
-* The working group meets every **TBD** weeks. [meeting notes](https://docs.google.com/document/d/13edPtYo5hPpbFg7PO71v8RMGJByJRb1fUY1JPuwshkA/edit?usp=sharing)
-* Zoom coordinates are **TBD**.
+* The working group meets every 2 weeks. [meeting notes](https://docs.google.com/document/d/13edPtYo5hPpbFg7PO71v8RMGJByJRb1fUY1JPuwshkA/edit?usp=sharing)
+* [Zoom coordinates](https://zoom-lfx.platform.linuxfoundation.org/meeting/96185757639?password=b7ec8266-4aaf-4f11-bfb0-eae19b8570d9)
 * To get involved, join the [Slack channel](https://hpsf.slack.com/archives/C08NKKL97NZ)
 
 
