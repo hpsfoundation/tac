@@ -32,54 +32,56 @@ To see past project proposals, you can look at the closed issues in this reposit
 * [Core Project Proposals](https://github.com/hpsfoundation/tac/issues?q=is%3Aissue%20state%3Aclosed%20label%3Alevel%3Acore)
 
 ### Project Acceptance Process
-Once a project has submitted a proposal as outlined above, the process for accepting them
-to HPSF is as follows:
+Once a project has submitted a proposal as outlined above, the process for accepting them to HPSF is as follows:
 
-1. TAC sponsors shall read through the project proposal and ensure that all criteria
-   for the project's requested level are addressed in the proposal. If insufficient
-   evidence is presented for any of the criteria, the sponsors should work with the
-   project to bolster the case, or to choose a different, more appropriate initial
-   level.
+1. TAC sponsors shall read through the project proposal and ensure that all criteria for the project's requested level are addressed in the proposal.
+   If insufficient evidence is presented for any of the criteria, the sponsors should work with the project to bolster the case, or to choose a different, more appropriate initial level.
 
-2. Once the proposal is in a suitable state, the sponsors shall propose it to
-   the full TAC for onboarding, and the TAC shall decide on a future meeting to
-   hear the presentation.
+2. Once the proposal is in a suitable state, the sponsors shall propose it to the full TAC for onboarding, and the TAC shall decide on a future meeting to hear the presentation.
 
-3. TAC voting members shall read the project's proposal and ensure that they are familiar
-   with the state of the project to be onboarded *before* the onboarding presentation.
+3. TAC voting members shall read the project's proposal and ensure that they are familiar with the state of the project to be onboarded *before* the onboarding presentation.
 
-4. Project members shall present their proposal at the scheduled TAC meeting. This should take
-   no more than 30 minutes, and it will typically involve an introduction to the project and
-   a verbal explanation of alignment with HPSF and key elements of the proposal.
+4. Project members shall present their proposal at the scheduled TAC meeting.
+   This should take no more than 30 minutes, to leave time for the TAC to privately discuss after the meeting.
+   The presentation should include an introduction to the project and an explanation of alignment with HPSF and key elements of the proposal.
    See links in the prior section to past project proposals for links to past talks.
 
-5. Once the project members have presented, voting members of the TAC shall convene a
-   private session, and the project's sponsors shall discuss the project, its presentation,
-   its proposal, and any questions the voting members have as to the evidence for
-   onboarding criteria.
+5. Once the project members finish their presentation, voting members of the TAC shall convene a private session (e.g., by closing the teleconference to people not on the TAC).
+   The project's sponsors shall discuss the project, its presentation, its proposal, and any questions the voting members have as to the evidence for onboarding criteria.
 
    In the closed session, sponsors are expected to advocate for the project and to clarify any questions the TAC may have.
 
-6. After the private session, the TAC shall vote asynchronously before the next TAC
-   meeting on whether or not to accept the project.
+6. After the private session, the TAC shall vote asynchronously before the next TAC meeting on whether or not to accept the project.
+
+   Votes for project acceptance should include options to:
+   1. Accept the project at the proposed level;
+   2. Accept the project at a lower level than proposed (the poll should list all lower levels as options);
+   3. Accept provisionally at the proposed level, pending minor requirements; or
+   4. Reject the project.
 
    **Projects must be accepted by a 2/3 majority of the TAC.**
 
-   Generally, the TAC will vote on the proposed level and all lower levels
-   simultaneously.
+   A project is accepted at the *lowest* level for which a 2/3 majority is achieved. For example, if there are 5 accepts for the "core" level, 1 accept for "established", and 3 rejects, the project is accepted at the "established" level as there were 6 votes for "established" or higher.
 
-7. The TAC may decide to:
-   1. Accept the project as proposed;
-   2. Accept the project provisionally, pending changes;
-   3. Accept the project at a lower level than proposed (given sufficient votes); or
-   4. Reject the project.
+7. To determine a majority, we use Robert's rules of Order. Under these rules, abstentions are counted as neither "yes" nor "no" votes and do not affect the outcome of the vote. They are recorded and noted, but not included in the calculation of a majority. In more detail:
 
-Vote majorities will be calculated as a percentage of the votes received. If a project
-is accepted pending changes, sponsors should make sure that the project accomplishes the
-requested changes (e.g., adding a governance document to a repository or adopting a Code
-of Conduct) and notify the TAC for final approval.
+   a. Right to Abstain: Members have the right to abstain from voting.
+   a. Not a Vote: Abstentions are not considered a vote in favor or against a motion.
+   b. Recorded, but Not Included: Abstentions are documented in the meeting minutes, but they are not part of the total votes cast when determining if a majority or supermajority was achieved.
+   c. Impact on Quorum: Abstentions do not affect whether a quorum is present, which is the minimum number of members required to conduct business.
+   d. Majority Vote: A majority vote is typically defined as more than half of the votes cast, excluding abstentions and blank votes.
 
-Once accepted, projects can apply for a different stage in HPSF via the Periodic Review Process.
+Abstentions can stem from various reasons, such as a conflict of interest, neutrality, or simply not wanting to vote either way.
+
+8. If a project is accepted pending minor requirements, it is the sponsors' responsibility to make sure that the project accomplishes the requested changes. This could (and has in the past) included:
+
+   a. adding a governance document to a repository.
+   b. adopting a Code of Conduct.
+   c. awaiting approval as a Linux Foundation project.
+
+   Requirements like this should be noted on the project proposal pull request, and an action item for sponsors to follow up should remain on the TAC agenda until the changes are satisfied.
+
+9. Once accepted, projects can apply for a different stage in HPSF via the Periodic Review Process.
 
 ## III. Stages - Definitions & Expectations
 Every High Performance Software Foundation project has an associated maturity level.
