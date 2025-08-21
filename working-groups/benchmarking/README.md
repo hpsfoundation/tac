@@ -15,7 +15,7 @@ Parts of the software stack we would like to test:
 
 ## Leads
 
-* Olga Pearce ([@pearce8](https://github.com/pearce8)])
+* Olga Pearce ([@pearce8](https://github.com/pearce8))
 
 
 ## Meetings
