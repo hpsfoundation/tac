@@ -90,4 +90,4 @@ but could expand after initial launch and willingness of resource providers.
 
 ## Plan
 
-We are collecting [project needs](project-needs) as we go along, to inform the plan.
+We are collecting project needs as we go along, to inform the plan.
