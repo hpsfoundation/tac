@@ -31,7 +31,7 @@ Parts of the software stack we would like to test:
 * Each datacenter is for themselves
 * Testing/benchmarking of the HPC software stack is intermittent at best
 * We want to figure out, as a working group, how we can pull together resources to support and maintain continuous testing,
-* with the purpose of testing the performance of the software stack as it evolves (compilers, libraries).
+  with the purpose of testing the performance of the software stack as it evolves (compilers, libraries).
 
 
 ## Initial objectives
