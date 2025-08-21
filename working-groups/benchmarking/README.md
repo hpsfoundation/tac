@@ -63,7 +63,7 @@ Parts of the software stack we would like to test:
   * Kokkos, AMReX, WarpX, ...
 
 * Work with members to ask them what they need from a framework
-  * NVIDIA, Intel, AMD, HPE, AWS,
+  * NVIDIA, Intel, AMD, HPE, AWS
  
 * Use HPSF Con to assess potential scope and showcase progress/results annually
 
