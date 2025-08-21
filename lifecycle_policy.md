@@ -63,15 +63,11 @@ Once a project has submitted a proposal as outlined above, the process for accep
 
    A project is accepted at the *lowest* level for which a 2/3 majority is achieved. For example, if there are 5 accepts for the "core" level, 1 accept for "established", and 3 rejects, the project is accepted at the "established" level as there were 6 votes for "established" or higher.
 
-7. To determine a majority, we use Robert's rules of Order. Under these rules, abstentions are counted as neither "yes" nor "no" votes and do not affect the outcome of the vote. They are recorded and noted, but not included in the calculation of a majority. In more detail:
+7. Vote Aggregation Rules
 
-   a. Right to Abstain: Members have the right to abstain from voting.
-   a. Not a Vote: Abstentions are not considered a vote in favor or against a motion.
-   b. Recorded, but Not Included: Abstentions are documented in the meeting minutes, but they are not part of the total votes cast when determining if a majority or supermajority was achieved.
-   c. Impact on Quorum: Abstentions do not affect whether a quorum is present, which is the minimum number of members required to conduct business.
-   d. Majority Vote: A majority vote is typically defined as more than half of the votes cast, excluding abstentions and blank votes.
-
-Abstentions can stem from various reasons, such as a conflict of interest, neutrality, or simply not wanting to vote either way.
+   * If the number of votes cast (including explicit "Abstain" votes) is less than half of the number of voting TAC members, then the result of the poll is "Against".
+   * Otherwise, if the number of "Approve" votes is at least two thirds of the votes cast (not including explicit "Abstain" votes), then the result of the poll is "Approve".
+   * Otherwise, the result of the poll is "Against".
 
 8. If a project is accepted pending minor requirements, it is the sponsors' responsibility to make sure that the project accomplishes the requested changes. This could (and has in the past) included:
 
