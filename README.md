@@ -39,7 +39,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 * Curtis Ober (Trilinos)
 * Damien Lebrun-Grandie (Kokkos)
 * Gregory Becker (Spack)
-* Gregory Kurtzer (CIQ)
+* Gregory Kurtzer (Apptainer)
 * Matt Koop (Amazon Web Services)
 * James Willenbring (Sandia National Laboratory)
 * John Mellor-Crummey (HPCToolkit)
