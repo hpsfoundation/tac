@@ -32,7 +32,18 @@ The Core Stage is for projects that are on a sustaining cycle of development, ma
 
 Emeritus projects are projects which the maintainers feel have reached or are nearing end-of-life. Emeritus projects have contributed to the ecosystem, but are not recommended for modern development except in unusual circumstances, as other options are preferable. The Foundation appreciates the contributions of these projects and their communities, and the role they have played in moving the ecosystem forward.
 
-## TAC Voting Members
+## TAC Leadership
+
+### Chairperson
+
+* Bill Hoffman
+
+### Maintainers
+
+* Justin LaPolla
+* Todd Gamblin
+
+### Voting Members
 
 * Andrew Myers (AMReX)
 * Axel Huebl (WarpX)
