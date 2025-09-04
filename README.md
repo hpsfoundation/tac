@@ -53,6 +53,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 * Gregory Kurtzer (Apptainer)
 * Matt Koop (Amazon Web Services)
 * James Willenbring (Sandia National Laboratory)
+* Joe Greenseid (Microsoft)
 * John Mellor-Crummey (HPCToolkit)
 * Justin LaPolla (Hewlett Packard Enterprise Development LP)
 * Kenneth Moreland (Viskores)
