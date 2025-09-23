@@ -14,6 +14,11 @@ This is a template ballot for HPSF project acceptance.
     - [ ] Against
     - [ ] Abstain
 
+2. That the project has a code of conduct.
+    - [ ] Approve
+    - [ ] Against
+    - [ ] Abstain
+
 3. That the project has a publicly available governance document.
     - [ ] Approve
     - [ ] Against
