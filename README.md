@@ -60,3 +60,4 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 * Reid Priedhorsky (Charliecloud)
 * Sameer Shende (E4S)
 * Todd Gamblin (Lawrence Livermore National Laboratory)
+* Xavier Delaruelle (Environment Modules)
