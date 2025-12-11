@@ -82,7 +82,7 @@ Once a project has submitted a proposal as outlined above, the process for accep
 
    These rules apply for all criteria on the ballot:
 
-   * If the number of votes cast (including explicit "Abstain" votes) is less than half of the number of voting TAC members, then the result of the poll is "Against".
+   * If the number of votes cast (including explicit "Abstain" votes) is not greater than half of the number of voting TAC members, then the result of the poll is "Against".
    * Otherwise, if the number of "Approve" votes is at least two thirds of the votes cast (not including explicit "Abstain" votes), then the result of the poll is "Approve".
    * Otherwise, the result of the poll is "Against".
 
