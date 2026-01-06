@@ -16,6 +16,7 @@ Parts of the software stack we would like to test:
 ## Leads
 
 * Olga Pearce ([@pearce8](https://github.com/pearce8))
+* Jayesh Badwaik ([@jbadwaik](https://github.com/jbadwaik))
 
 
 ## Meetings
