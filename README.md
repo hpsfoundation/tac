@@ -47,6 +47,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 * Andrew Myers (AMReX)
 * Axel Huebl (WarpX)
+* Brad Chamberlain (Hewlett Packard Enterprise Development LP)
 * Curtis Ober (Trilinos)
 * Damien Lebrun-Grandie (Kokkos)
 * Gregory Becker (Spack)
