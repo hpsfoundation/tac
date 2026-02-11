@@ -48,7 +48,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 * Andrew Myers (AMReX)
 * Andy Howard (Microsoft)
 * Axel Huebl (WarpX)
-* Brad Chamberlain (Hewlett Packard Enterprise Development LP)
+* Brad Chamberlain (Chapel)
 * Curtis Ober (Trilinos)
 * Damien Lebrun-Grandie (Kokkos)
 * Gregory Becker (Spack)
