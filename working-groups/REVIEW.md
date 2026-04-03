@@ -8,9 +8,9 @@
 ## Statistics
 * How often do you meet?
 * How many people attend on average?
-* Do you keep notes from the meetings?
+* Where do you keep notes from the meetings?
 * What topics have been covered so far?
-* Which projects have engaged so far?
+* How do you keep track of attendees?
 
 ## Progress
 * What goals have you achieved?
