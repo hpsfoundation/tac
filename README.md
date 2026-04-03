@@ -56,7 +56,6 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 * Hartmut Kaiser (HPX)
 * James Willenbring (Sandia National Laboratory)
 * John Mellor-Crummey (HPCToolkit)
-* Justin LaPolla (Hewlett Packard Enterprise Development LP)
 * Kenneth Moreland (Viskores)
 * Matt Koop (Amazon Web Services)
 * Reid Priedhorsky (Charliecloud)
