@@ -47,7 +47,7 @@ Once a project has submitted a proposal as outlined above, the process for accep
 
    TAC voting members shall read the project's proposal and ensure that they are familiar with the state of the project to be onboarded *before* the onboarding presentation.
 
-4. **Presentation** 
+4. **Presentation**
 
    Project members shall present their proposal at the scheduled TAC meeting.
    This should take no more than 30 minutes, to leave time for the TAC to privately discuss after the meeting.
@@ -75,7 +75,7 @@ Once a project has submitted a proposal as outlined above, the process for accep
    2. Accept the project at a lower level than proposed (the poll should list all lower levels as options);
    3. Accept provisionally at the proposed level, pending minor requirements; or
    4. Reject the project.
-   
+
 7. **Vote Aggregation Rules**
 
    For a project to be accepted, the TAC must vote by 2/3 majority to accept all of the criteria for that stage *and* to accept all criteria for lower stages.
@@ -102,7 +102,7 @@ Once a project has submitted a proposal as outlined above, the process for accep
 
    Requirements like this should be noted on the project proposal pull request, and an action item for sponsors to follow up should remain on the TAC agenda until the changes are satisfied.
 
-9. **Further Progression** 
+9. **Further Progression**
 
    Once accepted, projects can apply for a different stage in HPSF via the Periodic Review Process.
 
@@ -124,7 +124,7 @@ Emerging projects are projects which the TAC believes are, or have the potential
 
 **Expectations**
 
-End users should evaluate Emerging projects with care, as this stage does not set requirements for community size, governance, or production readiness. Emerging projects will receive minimal support from the Foundation. Projects will participate in the Periodic Review Process; they may also request a status review by submitting a report to the TAC.
+Projects at the Emerging Stage can vary in their community size, governance, or production readiness. Projects will participate in the Periodic Review Process; they may also request a status review by submitting a report to the TAC.
 
 **Acceptance Criteria**
 
