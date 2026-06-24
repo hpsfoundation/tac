@@ -36,7 +36,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 ### Chairperson
 
-* Bill Hoffman
+* Damien Lebrun-Grandie
 
 ### Maintainers
 
