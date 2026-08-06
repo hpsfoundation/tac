@@ -1,8 +1,10 @@
-### WG Lead(s)
+# HPSF Binaries Working Group
+
+## WG Lead(s)
 
 Ryan Krattiger (@kwryankrattiger)
 
-### WG Description
+## WG Description
 
 The goal of the Binaries WG is to address challenges in binary portability across the matrix of HPC platforms. The WG will engage projects and HPC providers to develop standards for interoperability and transparency of binary distribution that enhance productivity and scientific advancement.
 
@@ -13,7 +15,7 @@ Some specific areas of interest of this WG include:
 - Optimizations
 - Supply chain integrity (SBOMs/signing/verification/scanning)
 
-### Motivation for launch
+## Motivation for launch
 
 Currently there are a number of existing efforts to produce binary caches and build integrated environments for use in HPC.
 
@@ -38,14 +40,14 @@ The Spack project provides binaries through AWS S3
 The E4S project provides some binaries
 - https://oaciss.uoregon.edu/e4s/inventory.html
 
-### Initial activities
+## Initial activities
 
 * Create baseline environments for bootstrapping binary distributions
-  *  Python
+  * Python
   * Compilers and Toolchains (C/C++/Fortran/Rust/etc.)
   * Build tools
 
-### Anticipated activities
+## Anticipated activities
 
 * Define binary distributions for HPC
   * Collaboration with Benchmarking WG to determine portable and impactful optimizations
@@ -59,7 +61,7 @@ The E4S project provides some binaries
   * Standardize how to publish binary meta data (ie. SBOMs)
  
 
-### Customers
+## Customers
 
 * HPC Vendors
   * Understand the binary constraints of HPC centers
@@ -69,6 +71,6 @@ The E4S project provides some binaries
 * Researchers and End Users of HPC Centers
   * Install and run software directly from curated binary distributions
 
-### Plan
+## Plan
 
 The plan will evolve with respect to the needs of projects and HPC providers as we advance WG goals.
