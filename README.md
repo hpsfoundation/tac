@@ -40,7 +40,7 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 ### Maintainers
 
-For a full list of our current maintainers, see [MAINTAINERS.md](MAINTAINERS.md)
+For a full list of our current maintainers, see [MAINTAINERS.md](MAINTAINERS.md).
 
 ### Voting Members
 
