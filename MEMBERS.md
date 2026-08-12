@@ -2,71 +2,71 @@
 
 Andrew Myers (AMReX)
  - atmyers@lbl.gov
- - @atmyers
+ - [@atmyers](https://github.com/atmyers)
 
 Andy Howard (Microsoft)
  - anhoward@microsoft.com
 
 Axel Huebl (WarpX)
  - axelhuebl@lbl.gov
- - @ax3l
+ - [@ax3l](https://github.com/ax3l)
 
 Brad Chamberlain (Chapel)
  - bradcray@gmail.com
- - @bradcray
+ - [@bradcray](https://github.com/bradcray)
 
 Curtis Ober (Trilinos)
  - ccober@sandia.gov
- - @ccober6
+ - [@ccober6](https://github.com/ccober6)
 
 Damien Lebrun-Grandie (Kokkos)
  - lebrun-grandie@lanl.gov
- - @dalg24
+ - [@dalg24](https://github.com/dalg24)
 
 Gregory Becker (Spack)
  - becker33@llnl.gov
- - @becker33
+ - [@becker33](https://github.com/becker33)
 
 Gregory Kurtzer (Apptainer)
  - gmk@ciq.com
- - @gmkurtzer
+ - [@gmkurtzer](https://github.com/gmkurtzer)
 
 Hartmut Kaiser (HPX)
  - hkaiser@cct.lsu.edu
- - @hkaiser
+ - [@hkaiser](https://github.com/hkaiser)
 
 James Willenbring (Sandia National Laboratory)
  - jmwille@sandia.gov
- - @jwillenbring
+ - [@jwillenbring](https://github.com/jwillenbring)
 
 John Mellor-Crummey (HPCToolkit)
  - johnmc@rice.edu
- - @jmellorcrummey
+ - [@jmellorcrummey](https://github.com/jmellorcrummey)
 
 Kenneth Moreland (Viskores)
  - morelandsnl@gmail.com
- - @kmorel
+ - [@kmorel](https://github.com/kmorel)
 
 Reid Priedhorsky (Charliecloud)
  - reidpr@lanl.gov
- - @reidpr
+ - [@reidpr](https://github.com/reidpr)
 
 Sameer Shende (E4S)
  - sameer@cs.uoregon.edu
- - @sameershende
+ - [@sameershende](https://github.com/sameershende)
 
 Stephane Thiell (ClusterShell)
  - stephane@thiell.com
- - @thiell
+ - [@thiell](https://github.com/thiell)
 
 Todd Gamblin (Lawrence Livermore National Laboratory)
  - tgamblin@llnl.gov
- - @tgamblin
+ - [@tgamblin](https://github.com/tgamblin)
 
 Vanessa Sochat (Flux)
  - sochat1@llnl.gov
- - @vsoch
+ - [@vsoch](https://github.com/vsoch)
 
 Xavier Delaruelle (Environment Modules)
  - xavier.delaruelle@cea.fr
- - @@xdelaruelle
+ - [@xdelaruelle](https://github.com/xdelaruelle)
