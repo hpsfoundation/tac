@@ -45,6 +45,4 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 ### Voting Members
 
-## Governance
-
 For a full list of our current voting members, see [MEMBERS.md](MEMBERS.md).
