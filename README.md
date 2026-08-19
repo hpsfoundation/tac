@@ -40,26 +40,8 @@ Emeritus projects are projects which the maintainers feel have reached or are ne
 
 ### Maintainers
 
-* Justin LaPolla
-* Todd Gamblin
+For a full list of our current maintainers, see [MAINTAINERS.md](MAINTAINERS.md).
 
 ### Voting Members
 
-* Andrew Myers (AMReX)
-* Andy Howard (Microsoft)
-* Axel Huebl (WarpX)
-* Brad Chamberlain (Chapel)
-* Curtis Ober (Trilinos)
-* Damien Lebrun-Grandie (Kokkos)
-* Gregory Becker (Spack)
-* Gregory Kurtzer (Apptainer)
-* Hartmut Kaiser (HPX)
-* James Willenbring (Sandia National Laboratory)
-* John Mellor-Crummey (HPCToolkit)
-* Kenneth Moreland (Viskores)
-* Reid Priedhorsky (Charliecloud)
-* Sameer Shende (E4S)
-* Stephane Thiell (ClusterShell)
-* Todd Gamblin (Lawrence Livermore National Laboratory)
-* Vanessa Sochat (Flux)
-* Xavier Delaruelle (Environment Modules)
+For a full list of our current voting members, see [MEMBERS.md](MEMBERS.md).
