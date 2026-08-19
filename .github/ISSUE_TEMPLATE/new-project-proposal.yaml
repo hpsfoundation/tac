@@ -129,6 +129,7 @@ body:
     id: maturity-level
     attributes:
       label: 17. What maturity level of your project?
+      description: See [Summary of Project Levels](https://github.com/hpsfoundation/tac/blob/main/README.md#summary-of-project-levels).
       options:
         - Emerging
         - Established
