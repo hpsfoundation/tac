@@ -16,14 +16,14 @@ This governance policy sets forth the proposal process for projects to be accept
 
 ### Project Proposal Requirements
 Projects must be formally proposed via GitHub. Project proposals submitted to the High Performance Software Foundation should provide the information listed in our
-[New Project Proposal Template](https://github.com/hpsfoundation/tac/blob/main/.github/ISSUE_TEMPLATE/new-project-proposal.md) to the best of their ability.
+[New Project Proposal Template](https://github.com/hpsfoundation/tac/blob/main/.github/ISSUE_TEMPLATE/new-project-proposal.yaml) to the best of their ability.
 
 An important requirement from the list is to find two sponsors for your
 proposal on the TAC, as the sponsors will be arguing for your acceptance to HPSF. You
 should be sure that the sponsors are familiar with your project and your reasons for
 wanting to join HPSF.
 
-[Click this link](https://github.com/hpsfoundation/tac/issues/new?template=new-project-proposal.md) to start a new project proposal issue on GitHub.
+[Click this link](https://github.com/hpsfoundation/tac/issues/new?template=new-project-proposal.yaml) to start a new project proposal issue on GitHub.
 
 To see past project proposals, you can look at the closed issues in this repository. See here:
 
