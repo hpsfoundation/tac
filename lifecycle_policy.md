@@ -224,5 +224,5 @@ Projects must be reviewed no less frequently than every 24 months. Projects or a
 
 ### Reassignment to an Earlier Stage
 
-Projects that are determined not to meet the acceptance criteria of their current stage can be reassigned to an earlier stage of the project lifecycle with a 2/3 vote of the TAC.  Projects may request additional time (up to 12 months) from the TAC to address the deficiency before a reassignment is made, at the discretion of the TAC.  Project may also request reassignment to an earlier stage at the time of their review; projects may only be reassigned to an earlier stage by the review committee (rather than the full TAC) if requested by the project.
+Projects that are determined not to meet the acceptance criteria of their current stage can be reassigned to an earlier stage of the project lifecycle with a 2/3 vote of the TAC.  Projects may request additional time (up to 12 months) from the TAC to address the deficiency before a reassignment is made, at the discretion of the TAC.  Projects may also request reassignment to an earlier stage at the time of their review; projects may only be reassigned to an earlier stage by the review committee (rather than the full TAC) if requested by the project.
 
