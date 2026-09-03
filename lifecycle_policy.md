@@ -214,10 +214,18 @@ Projects may be granted Emeritus status by a 2/3 vote of the TAC and with approv
 
 ## IV. Periodic Review Process
 
-The TAC shall periodically review projects to determine whether they are in the stage that accurately reflects their current status, needs, and goals.
+The TAC shall periodically review projects to determine whether they are in the stage that accurately reflects their current status, needs, and goals.  Projects shall be reviewed by a three-member committee of TAC voting members appointed by the TAC Chair. Each review must culminate in one of the following recommendations:
 
-Projects must be reviewed no less frequently than every 24 months. Projects may also request review at any time to present a case to move to a new stage.
+ * Escalate to TAC Evaluation
+ * Renew at Current Stage
+ * Requested Earlier Stage Reassignment
 
-Projects that are determined not to meet the acceptance criteria of their current stage can be reassigned to an earlier stage of the project lifecycle with a 2/3 vote of the TAC. 
+Projects must be reviewed no less frequently than every 24 months. Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.  
 
-Projects may request additional time (up to 12 months) from the TAC to address the deficiency before a reassignment is made, at the discretion of the TAC.
+### Reassignment to an Earlier Stage
+
+Projects that do not meet the acceptance criteria of their current stage can be reassigned to an earlier stage of the project lifecycle with a 2/3 vote of the TAC. 
+Projects may request additional time (up to 12 months) from the TAC to address the deficiency before a reassignment is made, at the discretion of the TAC. 
+Projects may also request reassignment to an earlier stage at the time of their review.
+In this special case where the *project* makes the request, the review committee may decide *without* a vote of the full TAC that the project should be reassigned.
+
