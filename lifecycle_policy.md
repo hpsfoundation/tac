@@ -214,7 +214,7 @@ Projects may be granted Emeritus status by a 2/3 vote of the TAC and with approv
 
 ## IV. Periodic Review Process
 
-The TAC shall periodically review projects to determine whether they are in the stage that accurately reflects their current status, needs, and goals.  Project reviews will be conducted by a three-member committee of TAC voting members appointed by the TAC Chair. Each review must culminate in one of the following recommendations:
+The TAC shall periodically review projects to determine whether they are in the stage that accurately reflects their current status, needs, and goals.  Projects shall be reviewed by a three-member committee of TAC voting members appointed by the TAC Chair. Each review must culminate in one of the following recommendations:
 
  * Escalate to TAC Evaluation
  * Renew at Current Stage
