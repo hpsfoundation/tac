@@ -220,7 +220,7 @@ The TAC shall periodically review projects to determine whether they are in the 
  * Renew at Current Stage
  * Requested Earlier Stage Reassignment
 
-Projects must be reviewed no less frequently than every 24 months. Projects or a TAC Voting Member may also request review at any time to present a case to move to a new stage.  
+Projects must be reviewed no less frequently than every 24 months. Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.  
 
 ### Reassignment to an Earlier Stage
 
