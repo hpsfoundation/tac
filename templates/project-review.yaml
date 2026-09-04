@@ -1,0 +1,152 @@
+name: Project Review
+description: This form is to be filled out by projects for their reviews
+title: "[Project Review]: "
+labels: ["Project Review"]
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: 1. Name of Project
+    validations:
+      required: true
+      
+  - type: textarea
+    id: project-description
+    attributes:
+      label: 2. Project Description
+    validations:
+      required: true
+      
+  - type: input
+    id: project-website
+    attributes:
+      label: 3. Project Website
+      description: Please provide a link to the project website.
+      placeholder: https://www.yoursite.org
+    validations:
+      required: false
+      
+  - type: textarea
+    id: open-source-license
+    attributes:
+      label: 4. Open Source License
+      description: |
+        Please provide your license information. 
+        - [SPDX Identifier](https://spdx.org/licenses/)
+        - If the project also ships data artifacts, what Open Access licenses are used?
+    validations:
+      required: true
+      
+  - type: input
+    id: code-of-conduct
+    attributes:
+      label: 5. Code of Conduct
+      description: Please provide a link to your Code of Conduct.
+      placeholder: https://www.codeofconduct.org
+    validations:
+      required: false
+
+  - type: input
+    id: governance-practices
+    attributes:
+      label: 6. Governance Practices
+      description: Please provide a link to your project governance documentation.
+      placeholder: https://www.projectgovernance.org
+    validations:
+      required: false
+      
+  - type: input
+    id: source-control
+    attributes:
+      label: 7. What is the solution for source control?
+    validations:
+      required: true
+      
+  - type: input
+    id: issue-tracking
+    attributes:
+      label: 8. What is the solution for issue tracking?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: 9. Please list all external dependencies and their license
+    validations:
+      required: true
+      
+  - type: textarea
+    id: release-methodology
+    attributes:
+      label: 10. Please describe your release methodology and mechanics
+    validations:
+      required: true
+      
+  - type: textarea
+    id: software-quality
+    attributes:
+      label: 11. Please describe Software Quality efforts (CI, security, auditing)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: leadership-team
+    attributes:
+      label: 12. Please list the leadership team
+    validations:
+      required: true
+      
+  - type: textarea
+    id: mainline-committers
+    attributes:
+      label: 13. Please list the project members with access to commit to the mainline of the project
+    validations:
+      required: true
+      
+  - type: textarea
+    id: decision-making
+    attributes:
+      label: 14. Please describe the decision-making process
+    validations:
+      required: true
+    
+   - type: dropdown
+    id: maturity-level
+    attributes:
+      label: 15. What maturity level of your project?
+      description: See [Summary of Project Levels](https://github.com/hpsfoundation/tac/blob/main/README.md#summary-of-project-levels).
+      options:
+        - Emerging
+        - Established
+        - Core
+    validations:
+      required: true
+      
+  - type: textarea
+    id: communication-channels
+    attributes:
+      label: 16. Please list the project's official communication channels
+    validations:
+      required: false
+
+  - type: textarea
+    id: social-media
+    attributes:
+      label: 17. Please list the project's social media accounts
+    validations:
+      required: false
+
+  - type: textarea
+    id: financial-sponsorships
+    attributes:
+      label: 18. Please describe any existing financial sponsorships
+    validations:
+      required: false
+
+  - type: textarea
+    id: infrastructure-needs
+    attributes:
+      label: 19. Please describe the project's infrastructure needs or requests
+    validations:
+      required: false
