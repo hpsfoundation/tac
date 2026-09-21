@@ -152,21 +152,24 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "15. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
+      label: "15. Established Stage: Production Use"
+      description: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "16. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
+      label: "16. Established Stage: Development Processes"
+      description: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "17. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
+      label: "17. Established Stage: Contribution Flow"
+      description: Demonstrate a substantial ongoing flow of commits and merged contributions.
     validations:
       required: true
 
@@ -186,42 +189,48 @@ body:
   - type: textarea
     id: criterion-core-governing-body
     attributes:
-      label: "18. Core Stage: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body."
+      label: "18. Core Stage: Governing Body"
+      description: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body.
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-documentation
     attributes:
-      label: "19. Core Stage: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes."
+      label: "19. Core Stage: Governance Documentation"
+      description: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-committers
     attributes:
-      label: "20. Core Stage: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project."
+      label: "20. Core Stage: Committers"
+      description: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-security
     attributes:
-      label: "21. Core Stage: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project"
+      label: "21. Core Stage: Security Processes"
+      description: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-committer-process
     attributes:
-      label: "22. Core Stage: Explicitly defined project governance and committer process."
+      label: "22. Core Stage: Governance and Committer Process"
+      description: Explicitly defined project governance and committer process.
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-adoption
     attributes:
-      label: "23. Core Stage: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof."
+      label: "23. Core Stage: Adoption"
+      description: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof.
     validations:
       required: true
 
