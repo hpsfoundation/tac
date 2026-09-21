@@ -32,19 +32,10 @@ body:
     validations:
       required: true
       
-  - type: input
-    id: project-website
-    attributes:
-      label: 4. Project Website
-      description: Please provide a link to the project website.
-      placeholder: https://www.yoursite.org
-    validations:
-      required: false
-      
   - type: textarea
     id: open-source-license
     attributes:
-      label: 5. Open Source License
+      label: 4. Open Source License
       description: |
         Please provide your license information. 
         - [SPDX Identifier](https://spdx.org/licenses/)
@@ -56,7 +47,7 @@ body:
   - type: input
     id: code-of-conduct
     attributes:
-      label: 6. Code of Conduct
+      label: 5. Code of Conduct
       description: Please provide a link to your Code of Conduct.
       placeholder: https://www.codeofconduct.org
       value: No changes since the project proposal or last review.
@@ -66,7 +57,7 @@ body:
   - type: input
     id: source-control
     attributes:
-      label: 7. What is the solution for source control?
+      label: 6. What is the solution for source control?
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -74,7 +65,7 @@ body:
   - type: input
     id: issue-tracking
     attributes:
-      label: 8. What is the solution for issue tracking?
+      label: 7. What is the solution for issue tracking?
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -82,7 +73,7 @@ body:
   - type: textarea
     id: external-dependencies
     attributes:
-      label: 9. Please list all external dependencies and their license
+      label: 8. Please list all external dependencies and their license
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -90,7 +81,7 @@ body:
   - type: textarea
     id: release-methodology
     attributes:
-      label: 10. Please describe your release methodology and mechanics
+      label: 9. Please describe your release methodology and mechanics
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -98,7 +89,7 @@ body:
   - type: textarea
     id: software-quality
     attributes:
-      label: 11. Please describe Software Quality efforts (CI, security, auditing)
+      label: 10. Please describe Software Quality efforts (CI, security, auditing)
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -106,7 +97,7 @@ body:
   - type: dropdown
     id: current-stage
     attributes:
-      label: 12. Current Stage
+      label: 11. Current Stage
       options:
         - Emerging
         - Established
@@ -117,7 +108,7 @@ body:
   - type: dropdown
     id: requested-stage
     attributes:
-      label: 13. Requested Stage
+      label: 12. Requested Stage
       description: |
         Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
         Projects may also request reassignment to an earlier stage at the time of their review.
@@ -137,16 +128,18 @@ body:
   - type: input
     id: governance-practices
     attributes:
-      label: "14. Emerging Stage: Governance Practices"
+      label: "13. Emerging Stage: Governance Practices"
       description: Please provide a link to your project governance documentation.
       placeholder: https://www.projectgovernance.org
     validations:
       required: true
 
-  - type: textarea
-    id: criterion-emerging-status
+  - type: input
+    id: project-website
     attributes:
-      label: "15. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
+      label: "14. Emerging Stage: Project Website"
+      description: Projects must list their status prominently on their website/README
+      placeholder: https://www.yoursite.org
     validations:
       required: true
 
@@ -159,21 +152,21 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "16. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
+      label: "15. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "17. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
+      label: "16. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "18. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
+      label: "17. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
     validations:
       required: true
 
@@ -193,49 +186,49 @@ body:
   - type: textarea
     id: criterion-core-governing-body
     attributes:
-      label: "19. Core Stage: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body."
+      label: "18. Core Stage: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-documentation
     attributes:
-      label: "20. Core Stage: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes."
+      label: "19. Core Stage: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-committers
     attributes:
-      label: "21. Core Stage: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project."
+      label: "20. Core Stage: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-security
     attributes:
-      label: "22. Core Stage: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project"
+      label: "21. Core Stage: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project"
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-committer-process
     attributes:
-      label: "23. Core Stage: Explicitly defined project governance and committer process."
+      label: "22. Core Stage: Explicitly defined project governance and committer process."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-adoption
     attributes:
-      label: "24. Core Stage: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof."
+      label: "23. Core Stage: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof."
     validations:
       required: true
 
   - type: textarea
     id: presentation
     attributes:
-      label: 25. Presentation
+      label: 24. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -243,7 +236,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 26. Please list the project's official communication channels
+      label: 25. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -251,7 +244,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 27. Please list the project's social media accounts
+      label: 26. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -259,7 +252,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 28. Please describe any existing financial sponsorships
+      label: 27. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -267,7 +260,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 29. Please describe the project's infrastructure needs or requests
+      label: 28. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false
