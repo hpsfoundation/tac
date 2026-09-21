@@ -89,7 +89,7 @@ body:
     id: governance-practices
     attributes:
       label: "8. Emerging Stage: Governance Practices"
-      description: Please provide a link to your project governance documentation.
+      description: Please provide a link to your project governance documentation, which defines project governance, decision-making and committer processes.
       placeholder: https://www.projectgovernance.org
     validations:
       required: true
