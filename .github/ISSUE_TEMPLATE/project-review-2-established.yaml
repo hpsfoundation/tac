@@ -152,21 +152,24 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "15. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
+      label: "15. Established Stage: Production Use"
+      description: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "16. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
+      label: "16. Established Stage: Development Processes"
+      description: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "17. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
+      label: "17. Established Stage: Contribution Flow"
+      description: Demonstrate a substantial ongoing flow of commits and merged contributions.
     validations:
       required: true
 
