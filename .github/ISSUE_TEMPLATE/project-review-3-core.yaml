@@ -190,9 +190,9 @@ body:
       required: true
 
   - type: textarea
-    id: criterion-core-governance-documentation
+    id: criterion-core-release-documentation
     attributes:
-      label: "18. Core Stage: Governance Documentation"
+      label: "18. Core Stage: Release Process Documentation"
       description: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
     validations:
       required: true
