@@ -69,9 +69,8 @@ body:
       label: 7. Governance Practices
       description: Please provide a link to your project governance documentation.
       placeholder: https://www.projectgovernance.org
-      value: No changes since the project proposal or last review.
     validations:
-      required: false
+      required: true
       
   - type: input
     id: source-control
@@ -145,23 +144,16 @@ body:
         To be considered for the Emerging Stage, the project must meet the following requirements:
 
   - type: textarea
-    id: criterion-emerging-governance
-    attributes:
-      label: "15. Emerging Stage: Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles"
-    validations:
-      required: true
-
-  - type: textarea
     id: criterion-emerging-status
     attributes:
-      label: "16. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
+      label: "15. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
     validations:
       required: true
 
   - type: textarea
     id: presentation
     attributes:
-      label: 17. Presentation
+      label: 16. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -169,7 +161,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 18. Please list the project's official communication channels
+      label: 17. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -177,7 +169,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 19. Please list the project's social media accounts
+      label: 18. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -185,7 +177,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 20. Please describe any existing financial sponsorships
+      label: 19. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -193,7 +185,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 21. Please describe the project's infrastructure needs or requests
+      label: 20. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false

@@ -69,9 +69,8 @@ body:
       label: 7. Governance Practices
       description: Please provide a link to your project governance documentation.
       placeholder: https://www.projectgovernance.org
-      value: No changes since the project proposal or last review.
     validations:
-      required: false
+      required: true
       
   - type: input
     id: source-control
@@ -145,16 +144,9 @@ body:
         To be considered for the Emerging Stage, the project must meet the following requirements:
 
   - type: textarea
-    id: criterion-emerging-governance
-    attributes:
-      label: "15. Emerging Stage: Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles"
-    validations:
-      required: true
-
-  - type: textarea
     id: criterion-emerging-status
     attributes:
-      label: "16. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
+      label: "15. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
     validations:
       required: true
 
@@ -167,21 +159,21 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "17. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
+      label: "16. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "18. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
+      label: "17. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "19. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
+      label: "18. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
     validations:
       required: true
 
@@ -193,7 +185,7 @@ body:
   - type: textarea
     id: presentation
     attributes:
-      label: 20. Presentation
+      label: 19. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -201,7 +193,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 21. Please list the project's official communication channels
+      label: 20. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -209,7 +201,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 22. Please list the project's social media accounts
+      label: 21. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -217,7 +209,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 23. Please describe any existing financial sponsorships
+      label: 22. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -225,7 +217,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 24. Please describe the project's infrastructure needs or requests
+      label: 23. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false
