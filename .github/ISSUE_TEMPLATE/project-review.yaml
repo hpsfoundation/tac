@@ -111,7 +111,7 @@ body:
     validations:
       required: true
     
-   - type: dropdown
+  - type: dropdown
     id: maturity-level
     attributes:
       label: 15. What maturity level of your project?
