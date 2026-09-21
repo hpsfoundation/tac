@@ -20,7 +20,7 @@ body:
     id: project-proposal
     attributes:
       label: 2. Project Proposal
-      description: Please provide a link to the project proposal.
+      description: Please provide a link to the project proposal and the last project review, if any.
       placeholder: https://github.com/hpsfoundation/tac/issues/
     validations:
       required: true
@@ -49,6 +49,7 @@ body:
         Please provide your license information. 
         - [SPDX Identifier](https://spdx.org/licenses/)
         - If the project also ships data artifacts, what Open Access licenses are used?
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -58,6 +59,7 @@ body:
       label: 6. Code of Conduct
       description: Please provide a link to your Code of Conduct.
       placeholder: https://www.codeofconduct.org
+      value: No changes since the project proposal or last review.
     validations:
       required: false
 
@@ -67,6 +69,7 @@ body:
       label: 7. Governance Practices
       description: Please provide a link to your project governance documentation.
       placeholder: https://www.projectgovernance.org
+      value: No changes since the project proposal or last review.
     validations:
       required: false
       
@@ -74,6 +77,7 @@ body:
     id: source-control
     attributes:
       label: 8. What is the solution for source control?
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -81,6 +85,7 @@ body:
     id: issue-tracking
     attributes:
       label: 9. What is the solution for issue tracking?
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -88,6 +93,7 @@ body:
     id: external-dependencies
     attributes:
       label: 10. Please list all external dependencies and their license
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -95,6 +101,7 @@ body:
     id: release-methodology
     attributes:
       label: 11. Please describe your release methodology and mechanics
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -102,6 +109,7 @@ body:
     id: software-quality
     attributes:
       label: 12. Please describe Software Quality efforts (CI, security, auditing)
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -109,6 +117,7 @@ body:
     id: leadership-team
     attributes:
       label: 13. Please list the leadership team
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -116,6 +125,7 @@ body:
     id: mainline-committers
     attributes:
       label: 14. Please list the project members with access to commit to the mainline of the project
+      value: No changes since the project proposal or last review.
     validations:
       required: true
       
@@ -123,6 +133,7 @@ body:
     id: decision-making
     attributes:
       label: 15. Please describe the decision-making process
+      value: No changes since the project proposal or last review.
     validations:
       required: true
     
@@ -190,6 +201,7 @@ body:
     id: communication-channels
     attributes:
       label: 22. Please list the project's official communication channels
+      value: No changes since the project proposal or last review.
     validations:
       required: false
 
@@ -197,6 +209,7 @@ body:
     id: social-media
     attributes:
       label: 23. Please list the project's social media accounts
+      value: No changes since the project proposal or last review.
     validations:
       required: false
 
@@ -204,6 +217,7 @@ body:
     id: financial-sponsorships
     attributes:
       label: 24. Please describe any existing financial sponsorships
+      value: No changes since the project proposal or last review.
     validations:
       required: false
 
@@ -211,5 +225,6 @@ body:
     id: infrastructure-needs
     attributes:
       label: 25. Please describe the project's infrastructure needs or requests
+      value: No changes since the project proposal or last review.
     validations:
       required: false
