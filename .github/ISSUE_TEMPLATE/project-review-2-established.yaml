@@ -173,6 +173,11 @@ body:
       value: |
         Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
 
+  - type: markdown
+    attributes:
+      value: |
+        ### Miscellaneous Information
+
   - type: textarea
     id: presentation
     attributes:
