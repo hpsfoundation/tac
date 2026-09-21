@@ -113,34 +113,10 @@ body:
     validations:
       required: true
       
-  - type: textarea
-    id: leadership-team
-    attributes:
-      label: 13. Please list the leadership team
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-      
-  - type: textarea
-    id: mainline-committers
-    attributes:
-      label: 14. Please list the project members with access to commit to the mainline of the project
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-      
-  - type: textarea
-    id: decision-making
-    attributes:
-      label: 15. Please describe the decision-making process
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-    
   - type: dropdown
     id: current-stage
     attributes:
-      label: 16. Current Stage
+      label: 13. Current Stage
       options:
         - Emerging
         - Established
@@ -151,7 +127,7 @@ body:
   - type: dropdown
     id: requested-stage
     attributes:
-      label: 17. Requested Stage
+      label: 14. Requested Stage
       description: |
         Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
         Projects may also request reassignment to an earlier stage at the time of their review.
@@ -169,23 +145,16 @@ body:
         To be considered for the Emerging Stage, the project must meet the following requirements:
 
   - type: textarea
-    id: criterion-emerging-mission
-    attributes:
-      label: "18. Emerging Stage: Align with the mission of the HPSF as laid out above. This will be determined by a majority vote of the TAC"
-    validations:
-      required: true
-
-  - type: textarea
     id: criterion-emerging-governance
     attributes:
-      label: "19. Emerging Stage: Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles"
+      label: "15. Emerging Stage: Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles"
     validations:
       required: true
 
   - type: textarea
     id: criterion-emerging-status
     attributes:
-      label: "20. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
+      label: "16. Emerging Stage: Upon acceptance, projects must list their status prominently on their website/README"
     validations:
       required: true
 
@@ -198,21 +167,21 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "21. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
+      label: "17. Established Stage: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "22. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
+      label: "18. Established Stage: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption."
     validations:
       required: true
 
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "23. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
+      label: "19. Established Stage: Demonstrate a substantial ongoing flow of commits and merged contributions."
     validations:
       required: true
 
@@ -232,49 +201,49 @@ body:
   - type: textarea
     id: criterion-core-governing-body
     attributes:
-      label: "24. Core Stage: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body."
+      label: "20. Core Stage: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-documentation
     attributes:
-      label: "25. Core Stage: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes."
+      label: "21. Core Stage: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-committers
     attributes:
-      label: "26. Core Stage: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project."
+      label: "22. Core Stage: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-security
     attributes:
-      label: "27. Core Stage: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project"
+      label: "23. Core Stage: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project"
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-governance-committer-process
     attributes:
-      label: "28. Core Stage: Explicitly defined project governance and committer process."
+      label: "24. Core Stage: Explicitly defined project governance and committer process."
     validations:
       required: true
 
   - type: textarea
     id: criterion-core-adoption
     attributes:
-      label: "29. Core Stage: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof."
+      label: "25. Core Stage: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof."
     validations:
       required: true
 
   - type: textarea
     id: presentation
     attributes:
-      label: 30. Presentation
+      label: 26. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -282,7 +251,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 31. Please list the project's official communication channels
+      label: 27. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -290,7 +259,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 32. Please list the project's social media accounts
+      label: 28. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -298,7 +267,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 33. Please describe any existing financial sponsorships
+      label: 29. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -306,7 +275,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 34. Please describe the project's infrastructure needs or requests
+      label: 30. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false
