@@ -89,7 +89,7 @@ body:
     id: governance-practices
     attributes:
       label: "8. Emerging Stage: Governance Practices"
-      description: Please provide a link to your project governance documentation.
+      description: Please provide a link to your project governance documentation, which defines project governance, decision-making and committer processes.
       placeholder: https://www.projectgovernance.org
     validations:
       required: true
@@ -214,17 +214,9 @@ body:
       required: true
 
   - type: textarea
-    id: criterion-core-governance-committer-process
-    attributes:
-      label: "21. Core Stage: Governance and Committer Process"
-      description: Explicitly defined project governance and committer process.
-    validations:
-      required: true
-
-  - type: textarea
     id: criterion-core-adoption
     attributes:
-      label: "22. Core Stage: Adoption"
+      label: "21. Core Stage: Adoption"
       description: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof.
     validations:
       required: true
@@ -232,7 +224,7 @@ body:
   - type: textarea
     id: presentation
     attributes:
-      label: 23. Presentation
+      label: 22. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -240,7 +232,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 24. Please list the project's official communication channels
+      label: 23. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -248,7 +240,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 25. Please list the project's social media accounts
+      label: 24. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -256,7 +248,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 26. Please describe any existing financial sponsorships
+      label: 25. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -264,7 +256,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 27. Please describe the project's infrastructure needs or requests
+      label: 26. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false
