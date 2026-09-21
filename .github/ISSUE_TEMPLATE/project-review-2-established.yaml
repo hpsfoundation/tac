@@ -54,26 +54,10 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: source-control
-    attributes:
-      label: 6. What is the solution for source control?
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-      
-  - type: input
-    id: issue-tracking
-    attributes:
-      label: 7. What is the solution for issue tracking?
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-      
   - type: dropdown
     id: current-stage
     attributes:
-      label: 8. Current Stage
+      label: 6. Current Stage
       options:
         - Emerging
         - Established
@@ -84,7 +68,7 @@ body:
   - type: dropdown
     id: requested-stage
     attributes:
-      label: 9. Requested Stage
+      label: 7. Requested Stage
       description: |
         Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
         Projects may also request reassignment to an earlier stage at the time of their review.
@@ -104,7 +88,7 @@ body:
   - type: input
     id: governance-practices
     attributes:
-      label: "10. Emerging Stage: Governance Practices"
+      label: "8. Emerging Stage: Governance Practices"
       description: Please provide a link to your project governance documentation.
       placeholder: https://www.projectgovernance.org
     validations:
@@ -113,16 +97,24 @@ body:
   - type: input
     id: project-website
     attributes:
-      label: "11. Emerging Stage: Project Website"
+      label: "9. Emerging Stage: Project Website"
       description: Projects must list their status prominently on their website/README
       placeholder: https://www.yoursite.org
+    validations:
+      required: true
+
+  - type: input
+    id: open-source-repository
+    attributes:
+      label: "10. Emerging Stage: Open Source Repository"
+      description: Please provide a link to the open source repository for code and issue tracking.
     validations:
       required: true
 
   - type: textarea
     id: external-dependencies
     attributes:
-      label: "12. Emerging Stage: External Dependencies and Licenses"
+      label: "11. Emerging Stage: External Dependencies and Licenses"
       description: Please list all external dependencies and their license
       value: No changes since the project proposal or last review.
     validations:
@@ -131,7 +123,7 @@ body:
   - type: textarea
     id: release-methodology
     attributes:
-      label: "13. Emerging Stage: Release Methodology and Mechanics"
+      label: "12. Emerging Stage: Release Methodology and Mechanics"
       description: Please describe your release methodology and mechanics
       value: No changes since the project proposal or last review.
     validations:
@@ -140,7 +132,7 @@ body:
   - type: textarea
     id: software-quality
     attributes:
-      label: "14. Emerging Stage: Software Quality Efforts (CI)"
+      label: "13. Emerging Stage: Software Quality Efforts (CI)"
       description: Please describe Software Quality efforts (CI)
       value: No changes since the project proposal or last review.
     validations:
@@ -155,7 +147,7 @@ body:
   - type: textarea
     id: criterion-established-production-use
     attributes:
-      label: "15. Established Stage: Production Use"
+      label: "14. Established Stage: Production Use"
       description: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
     validations:
       required: true
@@ -163,7 +155,7 @@ body:
   - type: textarea
     id: criterion-established-development-processes
     attributes:
-      label: "16. Established Stage: Development Processes"
+      label: "15. Established Stage: Development Processes"
       description: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
     validations:
       required: true
@@ -171,7 +163,7 @@ body:
   - type: textarea
     id: criterion-established-contribution-flow
     attributes:
-      label: "17. Established Stage: Contribution Flow"
+      label: "16. Established Stage: Contribution Flow"
       description: Demonstrate a substantial ongoing flow of commits and merged contributions.
     validations:
       required: true
@@ -184,7 +176,7 @@ body:
   - type: textarea
     id: presentation
     attributes:
-      label: 18. Presentation
+      label: 17. Presentation
       description: Optional, you can link slides here.
     validations:
       required: false
@@ -192,7 +184,7 @@ body:
   - type: textarea
     id: communication-channels
     attributes:
-      label: 19. Please list the project's official communication channels
+      label: 18. Please list the project's official communication channels
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -200,7 +192,7 @@ body:
   - type: textarea
     id: social-media
     attributes:
-      label: 20. Please list the project's social media accounts
+      label: 19. Please list the project's social media accounts
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -208,7 +200,7 @@ body:
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 21. Please describe any existing financial sponsorships
+      label: 20. Please describe any existing financial sponsorships
       value: No changes since the project proposal or last review.
     validations:
       required: false
@@ -216,7 +208,7 @@ body:
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 22. Please describe the project's infrastructure needs or requests
+      label: 21. Please describe the project's infrastructure needs or requests
       value: No changes since the project proposal or last review.
     validations:
       required: false
