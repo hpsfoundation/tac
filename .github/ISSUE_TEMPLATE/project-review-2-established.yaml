@@ -64,18 +64,9 @@ body:
       required: false
 
   - type: input
-    id: governance-practices
-    attributes:
-      label: 7. Governance Practices
-      description: Please provide a link to your project governance documentation.
-      placeholder: https://www.projectgovernance.org
-    validations:
-      required: true
-      
-  - type: input
     id: source-control
     attributes:
-      label: 8. What is the solution for source control?
+      label: 7. What is the solution for source control?
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -83,7 +74,7 @@ body:
   - type: input
     id: issue-tracking
     attributes:
-      label: 9. What is the solution for issue tracking?
+      label: 8. What is the solution for issue tracking?
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -91,7 +82,7 @@ body:
   - type: textarea
     id: external-dependencies
     attributes:
-      label: 10. Please list all external dependencies and their license
+      label: 9. Please list all external dependencies and their license
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -99,7 +90,7 @@ body:
   - type: textarea
     id: release-methodology
     attributes:
-      label: 11. Please describe your release methodology and mechanics
+      label: 10. Please describe your release methodology and mechanics
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -107,7 +98,7 @@ body:
   - type: textarea
     id: software-quality
     attributes:
-      label: 12. Please describe Software Quality efforts (CI, security, auditing)
+      label: 11. Please describe Software Quality efforts (CI, security, auditing)
       value: No changes since the project proposal or last review.
     validations:
       required: true
@@ -115,7 +106,7 @@ body:
   - type: dropdown
     id: current-stage
     attributes:
-      label: 13. Current Stage
+      label: 12. Current Stage
       options:
         - Emerging
         - Established
@@ -126,7 +117,7 @@ body:
   - type: dropdown
     id: requested-stage
     attributes:
-      label: 14. Requested Stage
+      label: 13. Requested Stage
       description: |
         Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
         Projects may also request reassignment to an earlier stage at the time of their review.
@@ -142,6 +133,15 @@ body:
       value: |
         ### [Emerging Projects](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#emerging-projects)
         To be considered for the Emerging Stage, the project must meet the following requirements:
+
+  - type: input
+    id: governance-practices
+    attributes:
+      label: "14. Emerging Stage: Governance Practices"
+      description: Please provide a link to your project governance documentation.
+      placeholder: https://www.projectgovernance.org
+    validations:
+      required: true
 
   - type: textarea
     id: criterion-emerging-status
