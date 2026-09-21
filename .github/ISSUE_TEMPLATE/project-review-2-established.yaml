@@ -1,8 +1,14 @@
-name: Project Review
+name: "Project Review: Established Stage"
 description: This form is to be filled out by projects for their reviews
-title: "[Project Review]: "
+title: "[Project Review: Established Stage]: "
 labels: ["Project Review"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Projects shall be reviewed by a three-member committee of TAC voting members appointed by the TAC Chair.
+        See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
+
   - type: input
     id: project-name
     attributes:
@@ -126,30 +132,100 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: requested-stage
+    attributes:
+      label: 16. Requested Stage
+      options:
+        - Established
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Emerging Projects](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#emerging-projects)
+        To be considered for the Emerging Stage, the project must meet the following requirements:
+
+  - type: textarea
+    id: criterion-emerging-mission
+    attributes:
+      label: 17. Align with the mission of the HPSF as laid out above.
+      description: This will be determined by a majority vote of the TAC
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-emerging-governance
+    attributes:
+      label: 18. Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-emerging-status
+    attributes:
+      label: 19. Upon acceptance, projects must list their status prominently on their website/README
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Established Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#established-stage)
+        To be considered for Established Stage, the project must meet the Emerging requirements as well as the following:
+
+  - type: textarea
+    id: criterion-established-production-use
+    attributes:
+      label: 20. Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-established-development-processes
+    attributes:
+      label: 21. Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-established-contribution-flow
+    attributes:
+      label: 22. Demonstrate a substantial ongoing flow of commits and merged contributions.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
+
   - type: textarea
     id: communication-channels
     attributes:
-      label: 16. Please list the project's official communication channels
+      label: 23. Please list the project's official communication channels
     validations:
       required: false
 
   - type: textarea
     id: social-media
     attributes:
-      label: 17. Please list the project's social media accounts
+      label: 24. Please list the project's social media accounts
     validations:
       required: false
 
   - type: textarea
     id: financial-sponsorships
     attributes:
-      label: 18. Please describe any existing financial sponsorships
+      label: 25. Please describe any existing financial sponsorships
     validations:
       required: false
 
   - type: textarea
     id: infrastructure-needs
     attributes:
-      label: 19. Please describe the project's infrastructure needs or requests
+      label: 26. Please describe the project's infrastructure needs or requests
     validations:
       required: false

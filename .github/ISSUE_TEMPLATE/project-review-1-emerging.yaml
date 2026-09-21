@@ -1,0 +1,199 @@
+name: "Project Review: Emerging Stage"
+description: This form is to be filled out by projects for their reviews
+title: "[Project Review: Emerging Stage]: "
+labels: ["Project Review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Projects shall be reviewed by a three-member committee of TAC voting members appointed by the TAC Chair.
+        See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
+
+  - type: input
+    id: project-name
+    attributes:
+      label: 1. Name of Project
+    validations:
+      required: true
+      
+  - type: textarea
+    id: project-description
+    attributes:
+      label: 2. Project Description
+    validations:
+      required: true
+      
+  - type: input
+    id: project-website
+    attributes:
+      label: 3. Project Website
+      description: Please provide a link to the project website.
+      placeholder: https://www.yoursite.org
+    validations:
+      required: false
+      
+  - type: textarea
+    id: open-source-license
+    attributes:
+      label: 4. Open Source License
+      description: |
+        Please provide your license information. 
+        - [SPDX Identifier](https://spdx.org/licenses/)
+        - If the project also ships data artifacts, what Open Access licenses are used?
+    validations:
+      required: true
+      
+  - type: input
+    id: code-of-conduct
+    attributes:
+      label: 5. Code of Conduct
+      description: Please provide a link to your Code of Conduct.
+      placeholder: https://www.codeofconduct.org
+    validations:
+      required: false
+
+  - type: input
+    id: governance-practices
+    attributes:
+      label: 6. Governance Practices
+      description: Please provide a link to your project governance documentation.
+      placeholder: https://www.projectgovernance.org
+    validations:
+      required: false
+      
+  - type: input
+    id: source-control
+    attributes:
+      label: 7. What is the solution for source control?
+    validations:
+      required: true
+      
+  - type: input
+    id: issue-tracking
+    attributes:
+      label: 8. What is the solution for issue tracking?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: 9. Please list all external dependencies and their license
+    validations:
+      required: true
+      
+  - type: textarea
+    id: release-methodology
+    attributes:
+      label: 10. Please describe your release methodology and mechanics
+    validations:
+      required: true
+      
+  - type: textarea
+    id: software-quality
+    attributes:
+      label: 11. Please describe Software Quality efforts (CI, security, auditing)
+    validations:
+      required: true
+      
+  - type: textarea
+    id: leadership-team
+    attributes:
+      label: 12. Please list the leadership team
+    validations:
+      required: true
+      
+  - type: textarea
+    id: mainline-committers
+    attributes:
+      label: 13. Please list the project members with access to commit to the mainline of the project
+    validations:
+      required: true
+      
+  - type: textarea
+    id: decision-making
+    attributes:
+      label: 14. Please describe the decision-making process
+    validations:
+      required: true
+    
+  - type: dropdown
+    id: current-stage
+    attributes:
+      label: 15. Current Stage
+      description: |
+        Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
+        Projects may also request reassignment to an earlier stage at the time of their review.
+        See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
+      options:
+        - Emerging
+        - Established
+        - Core
+    validations:
+      required: true
+
+  - type: dropdown
+    id: requested-stage
+    attributes:
+      label: 16. Requested Stage
+      options:
+        - Emerging
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Emerging Projects](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#emerging-projects)
+        To be considered for the Emerging Stage, the project must meet the following requirements:
+
+  - type: textarea
+    id: criterion-emerging-mission
+    attributes:
+      label: 17. Align with the mission of the HPSF as laid out above.
+      description: This will be determined by a majority vote of the TAC
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-emerging-governance
+    attributes:
+      label: 18. Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-emerging-status
+    attributes:
+      label: 19. Upon acceptance, projects must list their status prominently on their website/README
+    validations:
+      required: true
+
+  - type: textarea
+    id: communication-channels
+    attributes:
+      label: 20. Please list the project's official communication channels
+    validations:
+      required: false
+
+  - type: textarea
+    id: social-media
+    attributes:
+      label: 21. Please list the project's social media accounts
+    validations:
+      required: false
+
+  - type: textarea
+    id: financial-sponsorships
+    attributes:
+      label: 22. Please describe any existing financial sponsorships
+    validations:
+      required: false
+
+  - type: textarea
+    id: infrastructure-needs
+    attributes:
+      label: 23. Please describe the project's infrastructure needs or requests
+    validations:
+      required: false
