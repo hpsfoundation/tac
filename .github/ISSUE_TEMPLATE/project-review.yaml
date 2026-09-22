@@ -74,8 +74,9 @@ body:
         Projects may also request reassignment to an earlier stage at the time of their review.
         See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
       options:
+        - Emerging
+        - Established
         - Core
-      default: 0
     validations:
       required: true
 
