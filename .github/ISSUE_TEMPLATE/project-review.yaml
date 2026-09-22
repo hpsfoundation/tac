@@ -15,7 +15,7 @@ body:
       label: 1. Name of Project
     validations:
       required: true
-      
+
   - type: input
     id: project-proposal
     attributes:
@@ -31,19 +31,19 @@ body:
       label: 3. Project Description
     validations:
       required: true
-      
+
   - type: textarea
     id: open-source-license
     attributes:
       label: 4. Open Source License
       description: |
-        Please provide your license information. 
+        Please provide your license information.
         - [SPDX Identifier](https://spdx.org/licenses/)
         - If the project also ships data artifacts, what Open Access licenses are used?
       value: No changes since the project proposal or last review.
     validations:
       required: true
-      
+
   - type: input
     id: code-of-conduct
     attributes:
@@ -79,6 +79,41 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: open-source-repository
+    attributes:
+      label: "8. Open Source Repository"
+      description: Please provide a link to the open source repository for code and issue tracking.
+    validations:
+      required: true
+
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: "9. External Dependencies and Licenses"
+      description: Please list all external dependencies and their license
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: release-methodology
+    attributes:
+      label: "10. Release Methodology and Mechanics"
+      description: Please describe your release methodology and mechanics
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: software-quality
+    attributes:
+      label: "11. Software Quality Efforts (CI)"
+      description: Please describe Software Quality efforts (CI)
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
@@ -88,7 +123,7 @@ body:
   - type: input
     id: governance-practices
     attributes:
-      label: "8. Emerging Stage: Governance Practices"
+      label: "12. Governance Practices"
       description: Please provide a link to your project governance documentation, which defines project governance, decision-making and committer processes.
       placeholder: https://www.projectgovernance.org
     validations:
@@ -97,44 +132,9 @@ body:
   - type: input
     id: project-website
     attributes:
-      label: "9. Emerging Stage: Project Website"
+      label: "13. Project Website"
       description: Projects must list their status prominently on their website/README
       placeholder: https://www.yoursite.org
-    validations:
-      required: true
-
-  - type: input
-    id: open-source-repository
-    attributes:
-      label: "10. Emerging Stage: Open Source Repository"
-      description: Please provide a link to the open source repository for code and issue tracking.
-    validations:
-      required: true
-
-  - type: textarea
-    id: external-dependencies
-    attributes:
-      label: "11. Emerging Stage: External Dependencies and Licenses"
-      description: Please list all external dependencies and their license
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-
-  - type: textarea
-    id: release-methodology
-    attributes:
-      label: "12. Emerging Stage: Release Methodology and Mechanics"
-      description: Please describe your release methodology and mechanics
-      value: No changes since the project proposal or last review.
-    validations:
-      required: true
-
-  - type: textarea
-    id: software-quality
-    attributes:
-      label: "13. Emerging Stage: Software Quality Efforts (CI)"
-      description: Please describe Software Quality efforts (CI)
-      value: No changes since the project proposal or last review.
     validations:
       required: true
 
@@ -142,7 +142,8 @@ body:
     attributes:
       value: |
         ### [Established Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#established-stage)
-        To be considered for Established Stage, the project must meet the Emerging requirements as well as the following:
+        To be considered for Established Stage, the project must meet the Emerging requirements as well as the following.
+        Even if you do not request the Established Stage, document your current status and roadmap:
 
   - type: textarea
     id: criterion-established-production-use
@@ -179,7 +180,8 @@ body:
         ### [Core Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#core-stage)
         Projects can move directly from Emerging to Core, if they can demonstrate sufficient maturity and have met all requirements.
 
-        To graduate from Emerging or Established status, or for a new project to join as a Core project, a project must meet the Established stage criteria plus:
+        To graduate from Emerging or Established status, or for a new project to join as a Core project, a project must meet the Established stage criteria plus the following.
+        Even if you do not request the Core Stage, document your current status and roadmap:
 
   - type: textarea
     id: criterion-core-governing-body
@@ -192,7 +194,7 @@ body:
   - type: textarea
     id: criterion-core-release-documentation
     attributes:
-      label: "18. Core Stage: Release Process Documentation"
+      label: "18. Core Stage: Governance Process Documentation"
       description: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
     validations:
       required: true
