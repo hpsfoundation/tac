@@ -32,14 +32,24 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: open-source-license
     attributes:
       label: 4. Open Source License
       description: |
         Please provide your license information.
         - [SPDX Identifier](https://spdx.org/licenses/)
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: input
+    id: open-data-license
+    attributes:
+      label: 4a. Open Data License
+      description: |
         - If the project also ships data artifacts, what Open Access licenses are used?
+        - [SPDX Identifier](https://spdx.org/licenses/)
       value: No changes since the project proposal or last review.
     validations:
       required: true
