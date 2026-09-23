@@ -1,0 +1,280 @@
+name: "Project Review: Core Stage"
+description: "Requested Stage: Core"
+title: "[Project Review: Core Stage]: "
+labels: ["Project Review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Projects shall be reviewed by a three-member committee of TAC voting members appointed by the TAC Chair.
+        See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
+
+  - type: input
+    id: project-name
+    attributes:
+      label: 1. Name of Project
+    validations:
+      required: true
+
+  - type: input
+    id: project-proposal
+    attributes:
+      label: 2. Project Proposal
+      description: Please provide a link to the project proposal and the last project review, if any.
+      placeholder: https://github.com/hpsfoundation/tac/issues/
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-description
+    attributes:
+      label: 3. Project Description
+    validations:
+      required: true
+
+  - type: input
+    id: open-source-license
+    attributes:
+      label: 4. Open Source License
+      description: |
+        Please provide your license information.
+        - [SPDX Identifier](https://spdx.org/licenses/)
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: input
+    id: open-data-license
+    attributes:
+      label: 4a. Open Data License
+      description: |
+        - If the project also ships data artifacts, what Open Access licenses are used?
+        - [SPDX Identifier](https://spdx.org/licenses/)
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: input
+    id: code-of-conduct
+    attributes:
+      label: 5. Code of Conduct
+      description: Please provide a link to your Code of Conduct.
+      placeholder: https://www.codeofconduct.org
+      value: No changes since the project proposal or last review.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: current-stage
+    attributes:
+      label: 6. Current Stage
+      options:
+        - Emerging
+        - Established
+        - Core
+    validations:
+      required: true
+
+  - type: dropdown
+    id: requested-stage
+    attributes:
+      label: 7. Requested Stage
+      description: |
+        Projects or a TAC Voting Member may also request a review at any time to present a case to move to a new stage.
+        Projects may also request reassignment to an earlier stage at the time of their review.
+        See [IV. Periodic Review Process](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#iv-periodic-review-process).
+      options:
+        - Emerging
+        - Established
+        - Core
+    validations:
+      required: true
+
+  - type: input
+    id: open-source-repository
+    attributes:
+      label: "8. Open Source Repository"
+      description: Please provide a link to the open source repository for code and issue tracking.
+    validations:
+      required: true
+
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: "9. External Dependencies and Licenses"
+      description: Please list all external dependencies and their license
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: release-methodology
+    attributes:
+      label: "10. Release Methodology and Mechanics"
+      description: Please describe your release methodology and mechanics
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: software-quality
+    attributes:
+      label: "11. Software Quality Efforts (CI)"
+      description: Please describe Software Quality efforts (CI)
+      value: No changes since the project proposal or last review.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Emerging Projects](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#emerging-projects)
+        To be considered for the Emerging Stage, the project must meet the following requirements:
+
+  - type: input
+    id: governance-practices
+    attributes:
+      label: "12. Governance Practices"
+      description: Please provide a link to your project governance documentation, which defines project governance, decision-making and committer processes.
+      placeholder: https://www.projectgovernance.org
+    validations:
+      required: true
+
+  - type: input
+    id: project-website
+    attributes:
+      label: "13. Project Website"
+      description: Projects must list their status prominently on their website/README
+      placeholder: https://www.yoursite.org
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Established Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#established-stage)
+        To be considered for Established Stage, the project must meet the Emerging requirements as well as the following.
+        Even if you do not request the Established Stage, document your current status and roadmap:
+
+  - type: textarea
+    id: criterion-established-production-use
+    attributes:
+      label: "14. Established Stage: Production Use"
+      description: Document that it is being used successfully in production by at least three independent end users which, in the TAC’s judgment, are of adequate quality and scope.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-established-development-processes
+    attributes:
+      label: "15. Established Stage: Development Processes"
+      description: Demonstrate development processes (e.g., use of pull requests, code review, testing, CI) that lower barriers to contribution and ensure software quality necessary for increased adoption.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-established-contribution-flow
+    attributes:
+      label: "16. Established Stage: Contribution Flow"
+      description: Demonstrate a substantial ongoing flow of commits and merged contributions.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### [Core Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#core-stage)
+        Projects can move directly from Emerging to Core, if they can demonstrate sufficient maturity and have met all requirements.
+
+        To graduate from Emerging or Established status, or for a new project to join as a Core project, a project must meet the Established stage criteria plus the following.
+        Even if you do not request the Core Stage, document your current status and roadmap:
+
+  - type: textarea
+    id: criterion-core-governing-body
+    attributes:
+      label: "17. Core Stage: Governing Body"
+      description: Have a defined governing body of at least 4 or more members (owners and core maintainers), of which no more than 1/2 of whom are affiliated with the same employer. No single institution may control a voting majority of the governing body.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-core-release-documentation
+    attributes:
+      label: "18. Core Stage: Governance Process Documentation"
+      description: Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-core-committers
+    attributes:
+      label: "19. Core Stage: Committers"
+      description: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-core-security
+    attributes:
+      label: "20. Core Stage: Security Processes"
+      description: Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterion-core-adoption
+    attributes:
+      label: "21. Core Stage: Adoption"
+      description: Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Miscellaneous Information
+
+  - type: textarea
+    id: presentation
+    attributes:
+      label: 22. Presentation
+      description: Optional, you can link slides here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: communication-channels
+    attributes:
+      label: 23. Please list the project's official communication channels
+      value: No changes since the project proposal or last review.
+    validations:
+      required: false
+
+  - type: textarea
+    id: social-media
+    attributes:
+      label: 24. Please list the project's social media accounts
+      value: No changes since the project proposal or last review.
+    validations:
+      required: false
+
+  - type: textarea
+    id: financial-sponsorships
+    attributes:
+      label: 25. Please describe any existing financial sponsorships
+      value: No changes since the project proposal or last review.
+    validations:
+      required: false
+
+  - type: textarea
+    id: infrastructure-needs
+    attributes:
+      label: 26. Please describe the project's infrastructure needs or requests
+      value: No changes since the project proposal or last review.
+    validations:
+      required: false
