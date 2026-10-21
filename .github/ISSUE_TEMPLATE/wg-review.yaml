@@ -1,0 +1,46 @@
+name: Working Group Review
+description: This form is for working group to provide to the TAC for their review.
+title: "[Working Group Review]: "
+labels: ["Working Group Review"]
+body:
+  - type: textarea
+    id: wg-goals
+    attributes:
+      label: 1. What is the goal(s) of the working group?
+    validations:
+      required: true
+
+  - type: textarea
+    id: wg-deliverables
+    attributes:
+      label: 2. What deliverables have been completed in service to the working group's goal(s)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: wg-attendance
+    attributes:
+      label: 3. What is the average attendance of a working group meeting?
+    validations:
+      required: true
+
+  - type: textarea
+    id: wg-promotion
+    attributes:
+      label: 4. What measures have been taken to promote this working group to the community?
+    validations:
+      required: true
+
+  - type: textarea
+    id: wg-assist
+    attributes:
+      label: 5. Does the working group need assistance from the TAC or the Governing Board?  If yes, please describe what is needed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: wg-renew
+    attributes:
+      label: 6. Should the working group continue in its current form?
+    validations:
+      required: true
