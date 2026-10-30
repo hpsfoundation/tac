@@ -187,7 +187,7 @@ To graduate from Emerging or Established status, or for a new project to join as
 * Have a documented and publicly accessible description of the project's governance, decision-making, and release processes.
 * Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
 * Explicitly defined security reporting and incident mitigation processes, as appropriate to the security risks of the project
-* Explicitly defined project governance and committer process.
+* Explicitly defined project governance, including who has commit privileges, and how developers can gain/lose those privileges (if applicable).
 * Provide evidence of widespread adoption in the HPC ecosystem or in some important component thereof.
 * Receive a 2/3 majority vote from the TAC to move to Core stage. Projects can move directly from Emerging to Core, if they can demonstrate sufficient maturity and have met all requirements.
 
