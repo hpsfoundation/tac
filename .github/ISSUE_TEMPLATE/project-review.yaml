@@ -63,7 +63,7 @@ body:
     id: status-needs-goals
     attributes:
       label: 6. Current Status, Needs, and Goals
-      description: The TAC shall periodically review projects to determine whether they are in the stage that accurately reflects their current status, needs, and goals.
+      description: Summary & updates on the project's current status, needs, and goals.
     validations:
       required: true
 
@@ -71,13 +71,13 @@ body:
     attributes:
       value: |
         ### [Emerging Stage](https://github.com/hpsfoundation/tac/blob/main/lifecycle_policy.md#emerging-projects)
-        To be considered for the Emerging Stage, the project must meet the following requirements:
+        To be considered for the Emerging or Core Stage, the project must meet the following requirements:
 
   - type: input
     id: criterion-emerging-governance-document
     attributes:
       label: "7. Emerging Stage: Governance Document"
-      description: Have a publicly available governance document — even if your governance is somewhat ad hoc, state what it is, including the project's technical leadership and roles.
+      description: Link your publicly available governance document, including the project's technical leadership and roles.
       placeholder: https://www.projectgovernance.org
     validations:
       required: true
@@ -86,7 +86,7 @@ body:
     id: criterion-emerging-status-listing
     attributes:
       label: "8. Emerging Stage: Website/README"
-      description: Upon acceptance, projects must list their status prominently on their website/README.
+      description: HPSF projects must list their status prominently on their website/README.
       placeholder: https://www.yoursite.org
     validations:
       required: true
@@ -153,7 +153,7 @@ body:
     id: criterion-core-committers
     attributes:
       label: "14. Core Stage: Committers"
-      description: Have a healthy number of committers from at least two organizations. A committer is defined as someone with the commit bit; i.e., someone who can accept contributions to some or all of the project.
+      description: Have a healthy number of committers from at least two organizations. A committer is defined as someone with commit privileges, i.e., someone who can accept contributions to some or all of the project.
     validations:
       required: true
 
